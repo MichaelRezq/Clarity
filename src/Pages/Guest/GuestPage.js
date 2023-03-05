@@ -3,22 +3,6 @@ import React from "react";
 const GuestPage = () => {
   return (
     <div>
-      {/* Mirrored from uitheme.net/sociala/forgot.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 03 Mar 2023 23:33:29 GMT */}
-      <meta charSet="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
-      <title>Elomoas - Online Course and LMS HTML Template</title>
-      <link rel="stylesheet" href="css/themify-icons.css" />
-      <link rel="stylesheet" href="css/feather.css" />
-      {/* Favicon icon */}
-      <link
-        rel="icon"
-        type="image/png"
-        sizes="16x16"
-        href="images/favicon.png"
-      />
-      {/* Custom Stylesheet */}
-      <link rel="stylesheet" href="css/style.css" />
       <div className="preloader" />
       <div className="main-wrap">
         <div className="nav-header bg-transparent shadow-none border-0">
@@ -26,7 +10,7 @@ const GuestPage = () => {
             <a href="index-2.html">
               <i className="feather-zap text-success display1-size me-2 ms-0" />
               <span className="d-inline-block fredoka-font ls-3 fw-600 text-current font-xxl logo-text mb-0">
-                Sociala.{" "}
+                Clarity.{" "}
               </span>{" "}
             </a>
             <a href="#" className="mob-menu ms-auto me-2 chat-active-btn">
@@ -204,7 +188,7 @@ const GuestPage = () => {
                         className="form-control text-left style2-input text-white fw-600 bg-facebook border-0 p-0 mb-2"
                       >
                         <img
-                          src="images/icon-1.png"
+                          src={require("../../Assets/images/icon-1.png")}
                           alt="icon"
                           className="ms-2 w40 mb-1 me-5"
                         />{" "}
@@ -217,7 +201,7 @@ const GuestPage = () => {
                         className="form-control text-left style2-input text-white fw-600 bg-twiiter border-0 p-0 "
                       >
                         <img
-                          src="images/icon-3.png"
+                          src={require("../../Assets/images/icon-3.png")}
                           alt="icon"
                           className="ms-2 w40 mb-1 me-5"
                         />{" "}
@@ -330,7 +314,7 @@ const GuestPage = () => {
                         className="form-control text-left style2-input text-white fw-600 bg-facebook border-0 p-0 "
                       >
                         <img
-                          src="images/icon-1.png"
+                          src={require("../../Assets/images/icon-1.png")}
                           alt="icon"
                           className="ms-2 w40 mb-1 me-5"
                         />{" "}
@@ -343,7 +327,7 @@ const GuestPage = () => {
                         className="form-control text-left style2-input text-white fw-600 bg-twiiter border-0 p-0 "
                       >
                         <img
-                          src="images/icon-3.png"
+                          src={require("../../Assets/images/icon-3.png")}
                           alt="icon"
                           className="ms-2 w40 mb-1 me-5"
                         />{" "}

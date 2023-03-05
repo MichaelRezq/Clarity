@@ -3,7 +3,7 @@ import React from "react";
 const Shop = () => {
   return (
     <div>
-      {/* Mirrored from uitheme.net/sociala/payment.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 03 Mar 2023 23:33:37 GMT */}
+      {/* Mirrored from uitheme.net/sociala/shop-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 03 Mar 2023 23:32:02 GMT */}
       <meta charSet="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
@@ -21,772 +21,745 @@ const Shop = () => {
       <link rel="stylesheet" href="css/style.css" />
       <div className="preloader" />
       <div className="main-wrapper">
-        {/* navigation top*/}
-        <div className="nav-header bg-white shadow-xs border-0">
-          <div className="nav-top">
-            <a href="index-2.html">
-              <i className="feather-zap text-success display1-size me-2 ms-0" />
-              <span className="d-inline-block fredoka-font ls-3 fw-600 text-current font-xxl logo-text mb-0">
-                Sociala.{" "}
-              </span>{" "}
-            </a>
-            <a href="#" className="mob-menu ms-auto me-2 chat-active-btn">
-              <i className="feather-message-circle text-grey-900 font-sm btn-round-md bg-greylight" />
-            </a>
-            <a href="default-video.html" className="mob-menu me-2">
-              <i className="feather-video text-grey-900 font-sm btn-round-md bg-greylight" />
-            </a>
-            <a href="#" className="me-2 menu-search-icon mob-menu">
-              <i className="feather-search text-grey-900 font-sm btn-round-md bg-greylight" />
-            </a>
-            <button className="nav-menu me-0 ms-2" />
-          </div>
-          <form action="#" className="float-left header-search">
-            <div className="form-group mb-0 icon-input">
-              <i className="feather-search font-sm text-grey-400" />
-              <input
-                type="text"
-                placeholder="Start typing to search.."
-                className="bg-grey border-0 lh-32 pt-2 pb-2 ps-5 pe-3 font-xssss fw-500 rounded-xl w350 theme-dark-bg"
-              />
-            </div>
-          </form>
-          <a
-            href="default.html"
-            className="p-2 text-center ms-3 menu-icon center-menu-icon"
-          >
-            <i className="feather-home font-lg alert-primary btn-round-lg theme-dark-bg text-current " />
-          </a>
-          <a
-            href="default-storie.html"
-            className="p-2 text-center ms-0 menu-icon center-menu-icon"
-          >
-            <i className="feather-zap font-lg bg-greylight btn-round-lg theme-dark-bg text-grey-500 " />
-          </a>
-          <a
-            href="default-video.html"
-            className="p-2 text-center ms-0 menu-icon center-menu-icon"
-          >
-            <i className="feather-video font-lg bg-greylight btn-round-lg theme-dark-bg text-grey-500 " />
-          </a>
-          <a
-            href="default-group.html"
-            className="p-2 text-center ms-0 menu-icon center-menu-icon"
-          >
-            <i className="feather-user font-lg bg-greylight btn-round-lg theme-dark-bg text-grey-500 " />
-          </a>
-          <a
-            href="shop-2.html"
-            className="p-2 text-center ms-0 menu-icon center-menu-icon"
-          >
-            <i className="feather-shopping-bag font-lg bg-greylight btn-round-lg theme-dark-bg text-grey-500 " />
-          </a>
-          <a
-            href="#"
-            className="p-2 text-center ms-auto menu-icon"
-            id="dropdownMenu3"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-            data-bs-toggle="dropdown"
-          >
-            <span className="dot-count bg-warning" />
-            <i className="feather-bell font-xl text-current" />
-          </a>
-          <div
-            className="dropdown-menu dropdown-menu-end p-4 rounded-3 border-0 shadow-lg"
-            aria-labelledby="dropdownMenu3"
-          >
-            <h4 className="fw-700 font-xss mb-4">Notification</h4>
-            <div className="card bg-transparent-card w-100 border-0 ps-5 mb-3">
-              <img
-                src="images/user-8.png"
-                alt="user"
-                className="w40 position-absolute left-0"
-              />
-              <h5 className="font-xsss text-grey-900 mb-1 mt-0 fw-700 d-block">
-                Hendrix Stamp{" "}
-                <span className="text-grey-400 font-xsssss fw-600 float-right mt-1">
-                  {" "}
-                  3 min
-                </span>
-              </h5>
-              <h6 className="text-grey-500 fw-500 font-xssss lh-4">
-                There are many variations of pass..
-              </h6>
-            </div>
-            <div className="card bg-transparent-card w-100 border-0 ps-5 mb-3">
-              <img
-                src="images/user-4.png"
-                alt="user"
-                className="w40 position-absolute left-0"
-              />
-              <h5 className="font-xsss text-grey-900 mb-1 mt-0 fw-700 d-block">
-                Goria Coast{" "}
-                <span className="text-grey-400 font-xsssss fw-600 float-right mt-1">
-                  {" "}
-                  2 min
-                </span>
-              </h5>
-              <h6 className="text-grey-500 fw-500 font-xssss lh-4">
-                Mobile Apps UI Designer is require..
-              </h6>
-            </div>
-            <div className="card bg-transparent-card w-100 border-0 ps-5 mb-3">
-              <img
-                src="images/user-7.png"
-                alt="user"
-                className="w40 position-absolute left-0"
-              />
-              <h5 className="font-xsss text-grey-900 mb-1 mt-0 fw-700 d-block">
-                Surfiya Zakir{" "}
-                <span className="text-grey-400 font-xsssss fw-600 float-right mt-1">
-                  {" "}
-                  1 min
-                </span>
-              </h5>
-              <h6 className="text-grey-500 fw-500 font-xssss lh-4">
-                Mobile Apps UI Designer is require..
-              </h6>
-            </div>
-            <div className="card bg-transparent-card w-100 border-0 ps-5">
-              <img
-                src="images/user-6.png"
-                alt="user"
-                className="w40 position-absolute left-0"
-              />
-              <h5 className="font-xsss text-grey-900 mb-1 mt-0 fw-700 d-block">
-                Victor Exrixon{" "}
-                <span className="text-grey-400 font-xsssss fw-600 float-right mt-1">
-                  {" "}
-                  30 sec
-                </span>
-              </h5>
-              <h6 className="text-grey-500 fw-500 font-xssss lh-4">
-                Mobile Apps UI Designer is require..
-              </h6>
-            </div>
-          </div>
-          <a
-            href="#"
-            className="p-2 text-center ms-3 menu-icon chat-active-btn"
-          >
-            <i className="feather-message-square font-xl text-current" />
-          </a>
-          <div className="p-2 text-center ms-3 position-relative dropdown-menu-icon menu-icon cursor-pointer">
-            <i className="feather-settings animation-spin d-inline-block font-xl text-current" />
-            <div className="dropdown-menu-settings switchcolor-wrap">
-              <h4 className="fw-700 font-sm mb-4">Settings</h4>
-              <h6 className="font-xssss text-grey-500 fw-700 mb-3 d-block">
-                Choose Color Theme
-              </h6>
-              <ul>
-                <li>
-                  <label className="item-radio item-content">
-                    <input
-                      type="radio"
-                      name="color-radio"
-                      defaultValue="red"
-                      defaultChecked
-                    />
-                    <i className="ti-check" />
-                    <span
-                      className="circle-color bg-red"
-                      style={{ backgroundColor: "#ff3b30" }}
-                    />
-                  </label>
-                </li>
-                <li>
-                  <label className="item-radio item-content">
-                    <input
-                      type="radio"
-                      name="color-radio"
-                      defaultValue="green"
-                    />
-                    <i className="ti-check" />
-                    <span
-                      className="circle-color bg-green"
-                      style={{ backgroundColor: "#4cd964" }}
-                    />
-                  </label>
-                </li>
-                <li>
-                  <label className="item-radio item-content">
-                    <input
-                      type="radio"
-                      name="color-radio"
-                      defaultValue="blue"
-                      defaultChecked
-                    />
-                    <i className="ti-check" />
-                    <span
-                      className="circle-color bg-blue"
-                      style={{ backgroundColor: "#132977" }}
-                    />
-                  </label>
-                </li>
-                <li>
-                  <label className="item-radio item-content">
-                    <input
-                      type="radio"
-                      name="color-radio"
-                      defaultValue="pink"
-                    />
-                    <i className="ti-check" />
-                    <span
-                      className="circle-color bg-pink"
-                      style={{ backgroundColor: "#ff2d55" }}
-                    />
-                  </label>
-                </li>
-                <li>
-                  <label className="item-radio item-content">
-                    <input
-                      type="radio"
-                      name="color-radio"
-                      defaultValue="yellow"
-                    />
-                    <i className="ti-check" />
-                    <span
-                      className="circle-color bg-yellow"
-                      style={{ backgroundColor: "#ffcc00" }}
-                    />
-                  </label>
-                </li>
-                <li>
-                  <label className="item-radio item-content">
-                    <input
-                      type="radio"
-                      name="color-radio"
-                      defaultValue="orange"
-                    />
-                    <i className="ti-check" />
-                    <span
-                      className="circle-color bg-orange"
-                      style={{ backgroundColor: "#ff9500" }}
-                    />
-                  </label>
-                </li>
-                <li>
-                  <label className="item-radio item-content">
-                    <input
-                      type="radio"
-                      name="color-radio"
-                      defaultValue="gray"
-                    />
-                    <i className="ti-check" />
-                    <span
-                      className="circle-color bg-gray"
-                      style={{ backgroundColor: "#8e8e93" }}
-                    />
-                  </label>
-                </li>
-                <li>
-                  <label className="item-radio item-content">
-                    <input
-                      type="radio"
-                      name="color-radio"
-                      defaultValue="brown"
-                    />
-                    <i className="ti-check" />
-                    <span
-                      className="circle-color bg-brown"
-                      style={{ backgroundColor: "#D2691E" }}
-                    />
-                  </label>
-                </li>
-                <li>
-                  <label className="item-radio item-content">
-                    <input
-                      type="radio"
-                      name="color-radio"
-                      defaultValue="darkgreen"
-                    />
-                    <i className="ti-check" />
-                    <span
-                      className="circle-color bg-darkgreen"
-                      style={{ backgroundColor: "#228B22" }}
-                    />
-                  </label>
-                </li>
-                <li>
-                  <label className="item-radio item-content">
-                    <input
-                      type="radio"
-                      name="color-radio"
-                      defaultValue="deeppink"
-                    />
-                    <i className="ti-check" />
-                    <span
-                      className="circle-color bg-deeppink"
-                      style={{ backgroundColor: "#FFC0CB" }}
-                    />
-                  </label>
-                </li>
-                <li>
-                  <label className="item-radio item-content">
-                    <input
-                      type="radio"
-                      name="color-radio"
-                      defaultValue="cadetblue"
-                    />
-                    <i className="ti-check" />
-                    <span
-                      className="circle-color bg-cadetblue"
-                      style={{ backgroundColor: "#5f9ea0" }}
-                    />
-                  </label>
-                </li>
-                <li>
-                  <label className="item-radio item-content">
-                    <input
-                      type="radio"
-                      name="color-radio"
-                      defaultValue="darkorchid"
-                    />
-                    <i className="ti-check" />
-                    <span
-                      className="circle-color bg-darkorchid"
-                      style={{ backgroundColor: "#9932cc" }}
-                    />
-                  </label>
-                </li>
-              </ul>
-              <div className="card bg-transparent-card border-0 d-block mt-3">
-                <h4 className="d-inline font-xssss mont-font fw-700">
-                  Header Background
-                </h4>
-                <div className="d-inline float-right mt-1">
-                  <label className="toggle toggle-menu-color">
-                    <input type="checkbox" />
-                    <span className="toggle-icon" />
-                  </label>
-                </div>
-              </div>
-              <div className="card bg-transparent-card border-0 d-block mt-3">
-                <h4 className="d-inline font-xssss mont-font fw-700">
-                  Menu Position
-                </h4>
-                <div className="d-inline float-right mt-1">
-                  <label className="toggle toggle-menu">
-                    <input type="checkbox" />
-                    <span className="toggle-icon" />
-                  </label>
-                </div>
-              </div>
-              <div className="card bg-transparent-card border-0 d-block mt-3">
-                <h4 className="d-inline font-xssss mont-font fw-700">
-                  Dark Mode
-                </h4>
-                <div className="d-inline float-right mt-1">
-                  <label className="toggle toggle-dark">
-                    <input type="checkbox" />
-                    <span className="toggle-icon" />
-                  </label>
-                </div>
-              </div>
-            </div>
-          </div>
-          <a href="default-settings.html" className="p-0 ms-3 menu-icon">
-            <img src="images/profile-4.png" alt="user" className="w40 mt--1" />
-          </a>
-        </div>
-        {/* navigation top */}
-        {/* navigation left */}
-        <nav className="navigation scroll-bar">
-          <div className="container ps-0 pe-0">
-            <div className="nav-content">
-              <div className="nav-wrap bg-white bg-transparent-card rounded-xxl shadow-xss pt-3 pb-1 mb-2 mt-2">
-                <div className="nav-caption fw-600 font-xssss text-grey-500">
-                  <span>New </span>Feeds
-                </div>
-                <ul className="mb-1 top-content">
-                  <li className="logo d-none d-xl-block d-lg-block" />
-                  <li>
-                    <a
-                      href="default.html"
-                      className="nav-content-bttn open-font"
-                    >
-                      <i className="feather-tv btn-round-md bg-blue-gradiant me-3" />
-                      <span>Newsfeed</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="default-badge.html"
-                      className="nav-content-bttn open-font"
-                    >
-                      <i className="feather-award btn-round-md bg-red-gradiant me-3" />
-                      <span>Badges</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="default-storie.html"
-                      className="nav-content-bttn open-font"
-                    >
-                      <i className="feather-globe btn-round-md bg-gold-gradiant me-3" />
-                      <span>Explore Stories</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="default-group.html"
-                      className="nav-content-bttn open-font"
-                    >
-                      <i className="feather-zap btn-round-md bg-mini-gradiant me-3" />
-                      <span>Popular Groups</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="user-page.html"
-                      className="nav-content-bttn open-font"
-                    >
-                      <i className="feather-user btn-round-md bg-primary-gradiant me-3" />
-                      <span>Author Profile </span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div className="nav-wrap bg-white bg-transparent-card rounded-xxl shadow-xss pt-3 pb-1 mb-2">
-                <div className="nav-caption fw-600 font-xssss text-grey-500">
-                  <span>More </span>Pages
-                </div>
-                <ul className="mb-3">
-                  <li>
-                    <a
-                      href="default-email-box.html"
-                      className="nav-content-bttn open-font"
-                    >
-                      <i className="font-xl text-current feather-inbox me-3" />
-                      <span>Email Box</span>
-                      <span className="circle-count bg-warning mt-1">584</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="default-hotel.html"
-                      className="nav-content-bttn open-font"
-                    >
-                      <i className="font-xl text-current feather-home me-3" />
-                      <span>Near Hotel</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="default-event.html"
-                      className="nav-content-bttn open-font"
-                    >
-                      <i className="font-xl text-current feather-map-pin me-3" />
-                      <span>Latest Event</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="default-live-stream.html"
-                      className="nav-content-bttn open-font"
-                    >
-                      <i className="font-xl text-current feather-youtube me-3" />
-                      <span>Live Stream</span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div className="nav-wrap bg-white bg-transparent-card rounded-xxl shadow-xss pt-3 pb-1">
-                <div className="nav-caption fw-600 font-xssss text-grey-500">
-                  <span /> Account
-                </div>
-                <ul className="mb-1">
-                  <li className="logo d-none d-xl-block d-lg-block" />
-                  <li>
-                    <a
-                      href="default-settings.html"
-                      className="nav-content-bttn open-font h-auto pt-2 pb-2"
-                    >
-                      <i className="font-sm feather-settings me-3 text-grey-500" />
-                      <span>Settings</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="default-analytics.html"
-                      className="nav-content-bttn open-font h-auto pt-2 pb-2"
-                    >
-                      <i className="font-sm feather-pie-chart me-3 text-grey-500" />
-                      <span>Analytics</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="default-message.html"
-                      className="nav-content-bttn open-font h-auto pt-2 pb-2"
-                    >
-                      <i className="font-sm feather-message-square me-3 text-grey-500" />
-                      <span>Chat</span>
-                      <span className="circle-count bg-warning mt-0">23</span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </nav>
         {/* navigation left */}
         {/* main content */}
-        <div className="main-content bg-lightblue theme-dark-bg right-chat-active">
+        <div className="main-content bg-white right-chat-active">
           <div className="middle-sidebar-bottom">
-            <div className="middle-sidebar-left">
-              <div className="middle-wrap">
-                <div className="card w-100 border-0 bg-white shadow-xs p-0 mb-4">
-                  <div className="card-body p-4 w-100 bg-current border-0 d-flex rounded-3">
-                    <a
-                      href="default-settings.html"
-                      className="d-inline-block mt-2"
-                    >
-                      <i className="ti-arrow-left font-sm text-white" />
-                    </a>
-                    <h4 className="font-xs text-white fw-600 ms-4 mb-0 mt-2">
-                      Payment Method
-                    </h4>
-                  </div>
-                  <div className="card-body p-lg-5 p-4 w-100 border-0">
-                    <div className="row">
-                      <div className="col-lg-5">
-                        <div className="col-lg-12 ps-0">
-                          <h4 className="mb-4 font-lg fw-700 mont-font mb-5">
-                            Saved Card{" "}
-                          </h4>
-                        </div>
-                        <div className="cleafrfix" />
-                        <div className="card border-0 shadow-none mb-4 mt-3">
-                          <div className="card-body d-block text-left p-0">
-                            <div className="item w-100 h150 bg-white rounded-xxl overflow-hidden text-left shadow-md ps-3 pt-2 align-items-end flex-column d-flex">
-                              <div className="card border-0 shadow-none p-0 bg-transparent-card text-left w-100">
-                                <div className="row">
-                                  <div className="col-6">
-                                    <img
-                                      src="images/b-9.png"
-                                      alt="icon"
-                                      className="w40 float-left d-inline-block"
-                                    />
-                                  </div>
-                                  <div className="col-6 text-right pe-4">
-                                    <img
-                                      src="images/chip.png"
-                                      alt="icon"
-                                      className="w30 float-right d-inline-block mt-2 me-2"
-                                    />
-                                  </div>
-                                </div>
-                              </div>
-                              <div className="card border-0 shadow-none p-0 bg-transparent-card text-left w-100 mt-auto">
-                                <h4 className="text-grey-900 font-sm fw-700 mont-font mb-3 text-dark-color">
-                                  $ 5960.00{" "}
-                                  <span className="d-block fw-500 text-grey-500 font-xssss mt-1 text-dark-color">
-                                    Debit Card
-                                  </span>
-                                </h4>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="card border-0 shadow-none mb-4">
-                          <div className="card-bod6 d-block text-left 2 fw-600-0">
-                            <div className="item w-100 h150 bg-gold-gradiant rounded-xxl overflow-hidden text-left shadow-md ps-3 pt-2 align-items-end flex-column d-flex">
-                              <div className="card bg-transparent border-0 bg-transparent-card shadow-none p-0 text-left w-100">
-                                <div className="row">
-                                  <div className="col-6">
-                                    <img
-                                      src="images/b-14.png"
-                                      alt="icon"
-                                      className="w90 float-left d-inline-block"
-                                    />
-                                  </div>
-                                  <div className="col-6 text-right pe-4">
-                                    <img
-                                      src="images/chip.png"
-                                      alt="icon"
-                                      className="w30 float-right d-inline-block mt-2 me-2 rounded-xxl"
-                                    />
-                                  </div>
-                                </div>
-                              </div>
-                              <div className="card bg-transparent border-0 bg-transparent-card shadow-none p-0 text-left w-100 mt-auto">
-                                <h4 className="text-white font-sm fw-700 mont-font mb-3">
-                                  $ 5960.00{" "}
-                                  <span className="d-block fw-500 text-white font-xssss mt-1">
-                                    Debit Card
-                                  </span>
-                                </h4>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="card border-0 mb-4 shadow-none">
-                          <div className="card-body d-block text-left p-0">
-                            <div className="item w-100 h150 bg-primary rounded-xxl text-left shadow-md ps-3 pt-2 align-items-end flex-column d-flex">
-                              <div className="card bg-transparent border-0 bg-transparent-card shadow-none p-0 text-left w-100">
-                                <div className="row">
-                                  <div className="col-6">
-                                    <img
-                                      src="images/b-10.png"
-                                      alt="icon"
-                                      className="w40 float-left d-inline-block"
-                                    />
-                                  </div>
-                                  <div className="col-6 text-right pe-4">
-                                    <img
-                                      src="images/chip.png"
-                                      alt="icon"
-                                      className="w30 float-right d-inline-block mt-2 me-2 rounded-3"
-                                    />
-                                  </div>
-                                </div>
-                              </div>
-                              <div className="card bg-transparent border-0 bg-transparent-card shadow-none p-0 text-left w-100 mt-auto">
-                                <h4 className="text-white mb-3 font-sm fw-700 mont-font">
-                                  $ 2260.00{" "}
-                                  <span className="d-block fw-500 text-grey-300 font-xssss mt-1">
-                                    Debit Card
-                                  </span>
-                                </h4>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <a
-                          href="#"
-                          className="rounded-xxl border-dashed mb-2 p-3 w-100 fw-600 fw-700 text-center font-xssss mont-font text-uppercase ls-3 text-grey-900 d-block  text-dark"
-                        >
-                          Add Card
-                        </a>
-                      </div>
-                      <div className="col-lg-6 offset-lg-1">
-                        <div className="rounded-xxl bg-greylight h-100 p-3">
-                          <div className="col-lg-12 ps-0">
-                            {/* <h4 class="mb-4 font-xs fw-700 mont-font mt-0">Add Card </h4> */}
-                          </div>
-                          <div className="col-lg-12">
-                            <div className="item ms-auto me-auto mt-3 w-100 h150 bg-white rounded-xxl text-left shadow-lg ps-3 pt-2 align-items-end flex-column d-flex">
-                              <div className="card border-0 bg-transparent-card shadow-none p-0 text-left w-100">
-                                <div className="row">
-                                  <div className="col-6 ps-2">
-                                    <img
-                                      src="images/b-17.png"
-                                      alt="icon"
-                                      className="w60 float-left d-inline-block"
-                                    />
-                                  </div>
-                                  <div className="col-6 text-right pe-4">
-                                    <img
-                                      src="images/chip.png"
-                                      alt="icon"
-                                      className="w30 float-right d-inline-block mt-2 me-2"
-                                    />
-                                  </div>
-                                </div>
-                              </div>
-                              <div className="card border-0 bg-transparent-card shadow-none p-0 text-left w-100 mt-auto">
-                                <h4 className="text-grey-900 font-sm fw-700 mont-font text-dark-color">
-                                  **** **** **** 2234{" "}
-                                  <span className="d-block fw-500 text-grey-500 font-xssss mt-0 mb-3 text-dark-color">
-                                    Credit Card
-                                  </span>
-                                </h4>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-12 mt-5">
-                            <form>
-                              <div className="form-group mb-1">
-                                <label
-                                  className="text-dark-color text-grey-600 font-xssss mb-2 fw-600"
-                                  htmlFor="exampleInputPassword1"
-                                >
-                                  Card Number
-                                </label>
-                                <div className="form-group icon-tab">
-                                  <input
-                                    type="text"
-                                    className="bg-white font-xsss border-0 rounded-3 form-control ps-4 bg-color-none border-bottom text-grey-900"
-                                    placeholder="1234 1234 1234 1234"
-                                  />
-                                </div>
-                              </div>
-                              <div className="form-group mb-1">
-                                <label
-                                  className="text-dark-color text-grey-600 font-xssss mb-2 fw-600"
-                                  htmlFor="exampleInputPassword1"
-                                >
-                                  Card Holder Name
-                                </label>
-                                <div className="form-group icon-tab">
-                                  <input
-                                    type="text"
-                                    className="bg-white border-0 rounded-3 form-control ps-4 bg-color-none border-bottom text-grey-900"
-                                    placeholder="Name"
-                                  />
-                                </div>
-                              </div>
-                              <div className="row">
-                                <div className="col-6">
-                                  <div className="form-group mb-1">
-                                    <label
-                                      className="text-dark-color text-grey-600 font-xssss mb-2 fw-600"
-                                      htmlFor="exampleInputPassword1"
-                                    >
-                                      Month
-                                    </label>
-                                    <div className="form-group icon-tab">
-                                      <input
-                                        type="text"
-                                        className="bg-white border-0 rounded-3 form-control ps-4 bg-color-none border-bottom text-grey-900"
-                                        placeholder={03}
-                                      />
-                                    </div>
-                                  </div>
-                                </div>
-                                <div className="col-6">
-                                  <div className="form-group mb-1">
-                                    <label
-                                      className="text-dark-color text-grey-600 font-xssss mb-2 fw-600"
-                                      htmlFor="exampleInputPassword1"
-                                    >
-                                      Year
-                                    </label>
-                                    <div className="form-group icon-tab">
-                                      <input
-                                        type="text"
-                                        className="bg-white border-0 rounded-3 form-control ps-4 bg-color-none border-bottom text-grey-900"
-                                        placeholder={2021}
-                                      />
-                                    </div>
-                                  </div>
-                                </div>
-                                <div className="col-12">
+            <div className="middle-sidebar-left pe-0">
+              <div className="row">
+                <div className="col-xl-12">
+                  <div className="row">
+                    <div className="col-lg-12">
+                      <div className="banner-wrapper bg-greylight overflow-hidden rounded-3">
+                        <div className="banner-slider owl-carousel owl-theme dot-style2 owl-nav-link link-style3 overflow-hidden">
+                          <div className="owl-items style1 d-flex align-items-center bg-lightblue">
+                            <div className="row">
+                              <div
+                                className="col-lg-6 p-lg-5 ps-5 pe-5 pt-4"
+                                style={{ paddingRight: "20px !important" }}
+                              >
+                                <div className="card w-100 border-0 ps-lg-5 ps-0 bg-transparent bg-transparent-card">
+                                  <h4 className="font-xssss text-danger ls-3 fw-700 ms-0 mt-4 mb-3">
+                                    TRENDING
+                                  </h4>
+                                  <h2 className="fw-300 display2-size display2-md-size lh-2 text-grey-900">
+                                    New Arrival Buds <br />{" "}
+                                    <b className="fw-700">Collection</b>
+                                  </h2>
+                                  <p className="fw-500 text-grey-500 lh-26 font-xssss pe-lg-5">
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Morbi nulla dolor, ornare
+                                    at commodo non, feugiat non nisi. Phasellus
+                                    faucibus mollis pharetra.
+                                  </p>
                                   <a
                                     href="#"
-                                    className="rounded-3 bg-current mb-2 mt-4 p-3 w-100 fw-600 fw-700 text-center font-xssss mont-font text-uppercase ls-3 text-white d-block"
+                                    className="fw-700 text-white rounded-xl bg-primary-gradiant font-xsssss text-uppercase ls-3 lh-30 mt-0 text-center d-inline-block p-2 w150"
                                   >
-                                    Add Card
+                                    Shop Now
                                   </a>
                                 </div>
                               </div>
-                            </form>
+                              <div className="col-lg-6">
+                                <img
+                                  src="images/pl-22.png"
+                                  alt="image"
+                                  className="img-fluid p-md-5 p-4"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                          <div className="owl-items style1 d-flex align-items-center bg-cyan">
+                            <div className="row">
+                              <div
+                                className="col-lg-6 p-lg-5 ps-5 pe-5 pt-4"
+                                style={{ paddingRight: "20px !important" }}
+                              >
+                                <div className="card w-100 border-0 ps-lg-5 ps-0 bg-transparent bg-transparent-card">
+                                  <h4 className="font-xssss text-white ls-3 fw-700 ms-0 mt-4 mb-3">
+                                    TRENDING
+                                  </h4>
+                                  <h2 className="fw-300 display2-size display2-md-size lh-2 text-white">
+                                    New Arrival Buds <br />{" "}
+                                    <b className="fw-700">Collection</b>
+                                  </h2>
+                                  <p className="fw-500 text-grey-100 lh-26 font-xssss pe-lg-5">
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Morbi nulla dolor, ornare
+                                    at commodo non, feugiat non nisi. Phasellus
+                                    faucibus mollis pharetra.
+                                  </p>
+                                  <a
+                                    href="#"
+                                    className="fw-700 text-grey-900 rounded-xl bg-white font-xsssss text-uppercase ls-3 lh-30 mt-0 text-center d-inline-block p-2 w150"
+                                  >
+                                    Shop Now
+                                  </a>
+                                </div>
+                              </div>
+                              <div className="col-lg-6">
+                                <img
+                                  src="images/pl-23.png"
+                                  alt="image"
+                                  className="img-fluid p-md-5 p-4"
+                                />
+                              </div>
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
+                    <div className="col-lg-4 col-md-6">
+                      <div className="card w-100 border-0 mt-4">
+                        <div className="card-image w-100 p-0 text-center bg-greylight rounded-3 mb-2">
+                          <a href="single-product.html">
+                            <img
+                              src="images/pp-9.png"
+                              alt="product-image"
+                              className="w-100 mt-0 mb-0 p-5"
+                            />
+                          </a>
+                        </div>
+                        <div className="card-body w-100 p-0 text-center">
+                          <div className="star w-100 d-block text-left mt-0 text-center">
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star-disable.png"
+                              alt="star"
+                              className="w15 me-1 me-2"
+                            />
+                          </div>
+                          <h2 className="mt-1 mb-1">
+                            <a
+                              href="single-product.html"
+                              className="text-black fw-700 font-xsss lh-26"
+                            >
+                              Textured Sleeveless Camisole
+                            </a>
+                          </h2>
+                          <h6 className="font-xsss fw-600 text-grey-500 ls-2">
+                            $449
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-4 col-md-6">
+                      <div className="card w-100 border-0 mt-4">
+                        <div className="card-image w-100 p-0 text-center bg-greylight rounded-3 mb-2">
+                          <a href="single-product.html">
+                            <img
+                              src="images/pp-10.png"
+                              alt="product-image"
+                              className="w-100 mt-0 mb-0 p-5"
+                            />
+                          </a>
+                        </div>
+                        <div className="card-body w-100 p-0 text-center">
+                          <div className="star w-100 d-block text-left mt-0 text-center">
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star-disable.png"
+                              alt="star"
+                              className="w15 me-1 me-2"
+                            />
+                          </div>
+                          <h2 className="mt-1 mb-1">
+                            <a
+                              href="single-product.html"
+                              className="text-black fw-700 font-xsss lh-26"
+                            >
+                              Adjustable Shoulder Straps
+                            </a>
+                          </h2>
+                          <h6 className="font-xsss fw-600 text-grey-500 ls-2">
+                            $449
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-4 col-md-6">
+                      <div className="card w-100 border-0 mt-4">
+                        <div className="card-image w-100 p-0 text-center bg-greylight rounded-3 mb-2">
+                          <a href="single-product.html">
+                            <img
+                              src="images/pp-13.png"
+                              alt="product-image"
+                              className="w-100 mt-0 mb-0 p-5"
+                            />
+                          </a>
+                        </div>
+                        <div className="card-body w-100 p-0 text-center">
+                          <div className="star w-100 d-block text-left mt-0 text-center">
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star-disable.png"
+                              alt="star"
+                              className="w15 me-1 me-2"
+                            />
+                          </div>
+                          <h2 className="mt-1 mb-1">
+                            <a
+                              href="single-product.html"
+                              className="text-black fw-700 font-xsss lh-26"
+                            >
+                              Neck Strappy Camisole
+                            </a>
+                          </h2>
+                          <h6 className="font-xsss fw-600 text-grey-500 ls-2">
+                            $449
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-4 col-md-6">
+                      <div className="card w-100 border-0 mt-4">
+                        <div className="card-image w-100 p-0 text-center bg-greylight rounded-3 mb-2">
+                          <a href="single-product.html">
+                            <img
+                              src="images/pp-14.png"
+                              alt="product-image"
+                              className="w-100 mt-0 mb-0 p-5"
+                            />
+                          </a>
+                        </div>
+                        <div className="card-body w-100 p-0 text-center">
+                          <div className="star w-100 d-block text-left mt-0 text-center">
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star-disable.png"
+                              alt="star"
+                              className="w15 me-1 me-2"
+                            />
+                          </div>
+                          <h2 className="mt-1 mb-1">
+                            <a
+                              href="single-product.html"
+                              className="text-black fw-700 font-xsss lh-26"
+                            >
+                              Scoop-Neck Strappy
+                            </a>
+                          </h2>
+                          <h6 className="font-xsss fw-600 text-grey-500 ls-2">
+                            $449
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-4 col-md-6">
+                      <div className="card w-100 border-0 mt-4">
+                        <div className="card-image w-100 p-0 text-center bg-greylight rounded-3 mb-2">
+                          <a href="single-product.html">
+                            <img
+                              src="images/pp-8.png"
+                              alt="product-image"
+                              className="w-100 mt-0 mb-0 p-5"
+                            />
+                          </a>
+                        </div>
+                        <div className="card-body w-100 p-0 text-center">
+                          <div className="star w-100 d-block text-left mt-0 text-center">
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star-disable.png"
+                              alt="star"
+                              className="w15 me-1 me-2"
+                            />
+                          </div>
+                          <h2 className="mt-1 mb-1">
+                            <a
+                              href="single-product.html"
+                              className="text-black fw-700 font-xsss lh-26"
+                            >
+                              Butler Stool Ladder
+                            </a>
+                          </h2>
+                          <h6 className="font-xsss fw-600 text-grey-500 ls-2">
+                            $449
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-4 col-md-6">
+                      <div className="card w-100 border-0 mt-4">
+                        <div className="card-image w-100 p-0 text-center bg-greylight rounded-3 mb-2">
+                          <a href="single-product.html">
+                            <img
+                              src="images/pp-22.png"
+                              alt="product-image"
+                              className="w-100 mt-0 mb-0 p-5"
+                            />
+                          </a>
+                        </div>
+                        <div className="card-body w-100 p-0 text-center">
+                          <div className="star w-100 d-block text-left mt-0 text-center">
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star-disable.png"
+                              alt="star"
+                              className="w15 me-1 me-2"
+                            />
+                          </div>
+                          <h2 className="mt-1 mb-1">
+                            <a
+                              href="single-product.html"
+                              className="text-black fw-700 font-xsss lh-26"
+                            >
+                              Butler Stool Ladder
+                            </a>
+                          </h2>
+                          <h6 className="font-xsss fw-600 text-grey-500 ls-2">
+                            $449
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-4 col-md-6">
+                      <div className="card w-100 border-0 mt-4">
+                        <div className="card-image w-100 p-0 text-center bg-greylight rounded-3 mb-2">
+                          <a href="single-product.html">
+                            <img
+                              src="images/pp-23.png"
+                              alt="product-image"
+                              className="w-100 mt-0 mb-0 p-5"
+                            />
+                          </a>
+                        </div>
+                        <div className="card-body w-100 p-0 text-center">
+                          <div className="star w-100 d-block text-left mt-0 text-center">
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star-disable.png"
+                              alt="star"
+                              className="w15 me-1 me-2"
+                            />
+                          </div>
+                          <h2 className="mt-1 mb-1">
+                            <a
+                              href="single-product.html"
+                              className="text-black fw-700 font-xsss lh-26"
+                            >
+                              Butler Stool Ladder
+                            </a>
+                          </h2>
+                          <h6 className="font-xsss fw-600 text-grey-500 ls-2">
+                            $449
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-4 col-md-6">
+                      <div className="card w-100 border-0 mt-4">
+                        <div className="card-image w-100 p-0 text-center bg-greylight rounded-3 mb-2">
+                          <a href="single-product.html">
+                            <img
+                              src="images/pp-8.png"
+                              alt="product-image"
+                              className="w-100 mt-0 mb-0 p-5"
+                            />
+                          </a>
+                        </div>
+                        <div className="card-body w-100 p-0 text-center">
+                          <div className="star w-100 d-block text-left mt-0 text-center">
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star-disable.png"
+                              alt="star"
+                              className="w15 me-1 me-2"
+                            />
+                          </div>
+                          <h2 className="mt-1 mb-1">
+                            <a
+                              href="single-product.html"
+                              className="text-black fw-700 font-xsss lh-26"
+                            >
+                              Butler Stool Ladder
+                            </a>
+                          </h2>
+                          <h6 className="font-xsss fw-600 text-grey-500 ls-2">
+                            $449
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-4 col-md-6">
+                      <div className="card w-100 border-0 mt-4">
+                        <div className="card-image w-100 p-0 text-center bg-greylight rounded-3 mb-2">
+                          <a href="single-product.html">
+                            <img
+                              src="images/pp-9.png"
+                              alt="product-image"
+                              className="w-100 mt-0 mb-0 p-5"
+                            />
+                          </a>
+                        </div>
+                        <div className="card-body w-100 p-0 text-center">
+                          <div className="star w-100 d-block text-left mt-0 text-center">
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star-disable.png"
+                              alt="star"
+                              className="w15 me-1 me-2"
+                            />
+                          </div>
+                          <h2 className="mt-1 mb-1">
+                            <a
+                              href="single-product.html"
+                              className="text-black fw-700 font-xsss lh-26"
+                            >
+                              Textured Sleeveless Camisole
+                            </a>
+                          </h2>
+                          <h6 className="font-xsss fw-600 text-grey-500 ls-2">
+                            $449
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-4 col-md-6">
+                      <div className="card w-100 border-0 mt-4">
+                        <div className="card-image w-100 p-0 text-center bg-greylight rounded-3 mb-2">
+                          <a href="single-product.html">
+                            <img
+                              src="images/pp-10.png"
+                              alt="product-image"
+                              className="w-100 mt-0 mb-0 p-5"
+                            />
+                          </a>
+                        </div>
+                        <div className="card-body w-100 p-0 text-center">
+                          <div className="star w-100 d-block text-left mt-0 text-center">
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star-disable.png"
+                              alt="star"
+                              className="w15 me-1 me-2"
+                            />
+                          </div>
+                          <h2 className="mt-1 mb-1">
+                            <a
+                              href="single-product.html"
+                              className="text-black fw-700 font-xsss lh-26"
+                            >
+                              Adjustable Shoulder Straps
+                            </a>
+                          </h2>
+                          <h6 className="font-xsss fw-600 text-grey-500 ls-2">
+                            $449
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-4 col-md-6">
+                      <div className="card w-100 border-0 mt-4">
+                        <div className="card-image w-100 p-0 text-center bg-greylight rounded-3 mb-2">
+                          <a href="single-product.html">
+                            <img
+                              src="images/pp-11.png"
+                              alt="product-image"
+                              className="w-100 mt-0 mb-0 p-5"
+                            />
+                          </a>
+                        </div>
+                        <div className="card-body w-100 p-0 text-center">
+                          <div className="star w-100 d-block text-left mt-0 text-center">
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star-disable.png"
+                              alt="star"
+                              className="w15 me-1 me-2"
+                            />
+                          </div>
+                          <h2 className="mt-1 mb-1">
+                            <a
+                              href="single-product.html"
+                              className="text-black fw-700 font-xsss lh-26"
+                            >
+                              Neck Strappy Camisole
+                            </a>
+                          </h2>
+                          <h6 className="font-xsss fw-600 text-grey-500 ls-2">
+                            $449
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-4 col-md-6">
+                      <div className="card w-100 border-0 mt-4">
+                        <div className="card-image w-100 p-0 text-center bg-greylight rounded-3 mb-2">
+                          <a href="single-product.html">
+                            <img
+                              src="images/pp-4.png"
+                              alt="product-image"
+                              className="w-100 mt-0 mb-0 p-5 mt-4 mb-4"
+                            />
+                          </a>
+                        </div>
+                        <div className="card-body w-100 p-0 text-center">
+                          <div className="star w-100 d-block text-left mt-0 text-center">
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star.png"
+                              alt="star"
+                              className="w15"
+                            />
+                            <img
+                              src="images/star-disable.png"
+                              alt="star"
+                              className="w15 me-1 me-2"
+                            />
+                          </div>
+                          <h2 className="mt-1 mb-1">
+                            <a
+                              href="single-product.html"
+                              className="text-black fw-700 font-xsss lh-26"
+                            >
+                              Scoop-Neck Strappy
+                            </a>
+                          </h2>
+                          <h6 className="font-xsss fw-600 text-grey-500 ls-2">
+                            $449
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-12 mt-3 mb-5 text-center">
+                      <a
+                        href="#"
+                        className="fw-700 text-white font-xssss text-uppercase ls-3 lh-32 rounded-3 mt-3 text-center d-inline-block p-2 bg-current w150"
+                      >
+                        Load More
+                      </a>
+                    </div>
                   </div>
                 </div>
-                {/* <div class="card w-100 border-0 p-2"></div> */}
               </div>
             </div>
           </div>
         </div>
         {/* main content */}
-        {/* right chat */}
         {/* right chat */}
         <div className="right-chat nav-wrap mt-2 right-scroll-bar">
           <div className="middle-sidebar-right-content bg-white shadow-xss rounded-xxl">
@@ -1083,7 +1056,121 @@ const Shop = () => {
           </form>
         </div>
       </div>
-      {/* Mirrored from uitheme.net/sociala/payment.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 03 Mar 2023 23:33:42 GMT */}
+      <div
+        className="modal bottom side fade"
+        id="Modalstries"
+        tabIndex={-1}
+        role="dialog"
+        style={{ overflowY: "auto" }}
+      >
+        <div className="modal-dialog modal-dialog-centered" role="document">
+          <div className="modal-content border-0 bg-transparent">
+            <button
+              type="button"
+              className="close mt-0 position-absolute top--30 right--10"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <i className="ti-close text-white font-xssss" />
+            </button>
+            <div className="modal-body p-0">
+              <div className="card w-100 border-0 rounded-3 overflow-hidden bg-gradiant-bottom bg-gradiant-top">
+                <div className="owl-carousel owl-theme dot-style3 story-slider owl-dot-nav nav-none">
+                  <div className="item">
+                    <img src="images/story-5.jpg" alt="image" />
+                  </div>
+                  <div className="item">
+                    <img src="images/story-6.jpg" alt="image" />
+                  </div>
+                  <div className="item">
+                    <img src="images/story-7.jpg" alt="image" />
+                  </div>
+                  <div className="item">
+                    <img src="images/story-8.jpg" alt="image" />
+                  </div>
+                </div>
+              </div>
+              <div className="form-group mt-3 mb-0 p-3 position-absolute bottom-0 z-index-1 w-100">
+                <input
+                  type="text"
+                  className="style2-input w-100 bg-transparent border-light-md p-3 pe-5 font-xssss fw-500 text-white"
+                  defaultValue="Write Comments"
+                />
+                <span
+                  className="feather-send text-white font-md text-white position-absolute"
+                  style={{ bottom: 35, right: 30 }}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="modal-popup-chat">
+        <div className="modal-popup-wrap bg-white p-0 shadow-lg rounded-3">
+          <div className="modal-popup-header w-100 border-bottom">
+            <div className="card p-3 d-block border-0 d-block">
+              <figure className="avatar mb-0 float-left me-2">
+                <img
+                  src="images/user-12.png"
+                  alt="image"
+                  className="w35 me-1"
+                />
+              </figure>
+              <h5 className="fw-700 text-primary font-xssss mt-1 mb-1">
+                Hendrix Stamp
+              </h5>
+              <h4 className="text-grey-500 font-xsssss mt-0 mb-0">
+                <span className="d-inline-block bg-success btn-round-xss m-0" />{" "}
+                Available
+              </h4>
+              <a
+                href="#"
+                className="font-xssss position-absolute right-0 top-0 mt-3 me-4"
+              >
+                <i className="ti-close text-grey-900 mt-2 d-inline-block" />
+              </a>
+            </div>
+          </div>
+          <div className="modal-popup-body w-100 p-3 h-auto">
+            <div className="message">
+              <div className="message-content font-xssss lh-24 fw-500">
+                Hi, how can I help you?
+              </div>
+            </div>
+            <div className="date-break font-xsssss lh-24 fw-500 text-grey-500 mt-2 mb-2">
+              Mon 10:20am
+            </div>
+            <div className="message self text-right mt-2">
+              <div className="message-content font-xssss lh-24 fw-500">
+                I want those files for you. I want you to send 1 PDF and 1 image
+                file.
+              </div>
+            </div>
+            <div
+              className="snippet pt-3 ps-4 pb-2 pe-3 mt-2 bg-grey rounded-xl float-right"
+              data-title=".dot-typing"
+            >
+              <div className="stage">
+                <div className="dot-typing" />
+              </div>
+            </div>
+            <div className="clearfix" />
+          </div>
+          <div className="modal-popup-footer w-100 border-top">
+            <div className="card p-3 d-block border-0 d-block">
+              <div className="form-group icon-right-input style1-input mb-0">
+                <input
+                  type="text"
+                  placeholder="Start typing.."
+                  className="form-control rounded-xl bg-greylight border-0 font-xssss fw-500 ps-3"
+                />
+                <i className="feather-send text-grey-500 font-md" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Mirrored from uitheme.net/sociala/shop-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 03 Mar 2023 23:32:45 GMT */}
     </div>
   );
 };

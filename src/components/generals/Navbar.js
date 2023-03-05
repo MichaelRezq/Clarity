@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <div className="">
@@ -7,21 +7,24 @@ function Navbar() {
         {/*---------------------------- navigation top*/}
         <div className="nav-header bg-white shadow-xs border-0">
           <div className="nav-top">
-            <a href="index-2.html">
+            <Link to={"/home"}>
               <i className="feather-zap text-success display1-size me-2 ms-0" />
               <span className="d-inline-block fredoka-font ls-3 fw-600 text-current font-xxl logo-text mb-0">
-                Clarity.{" "}
+                Clarity{" "}
               </span>{" "}
-            </a>
-            <a href="#" className="mob-menu ms-auto me-2 chat-active-btn">
+            </Link>
+            <Link
+              to={"/chat"}
+              className="mob-menu ms-auto me-2 chat-active-btn"
+            >
               <i className="feather-message-circle text-grey-900 font-sm btn-round-md bg-greylight" />
-            </a>
-            <a href="default-video.html" className="mob-menu me-2">
+            </Link>
+            <Link to={"/videos"} className="mob-menu me-2">
               <i className="feather-video text-grey-900 font-sm btn-round-md bg-greylight" />
-            </a>
-            <a href="#" className="me-2 menu-search-icon mob-menu">
+            </Link>
+            <Link to={"/home"} className="me-2 menu-search-icon mob-menu">
               <i className="feather-search text-grey-900 font-sm btn-round-md bg-greylight" />
-            </a>
+            </Link>
             <button className="nav-menu me-0 ms-2" />
           </div>
           <form action="#" className="float-left header-search">
@@ -34,38 +37,37 @@ function Navbar() {
               />
             </div>
           </form>
-          <a
-            href="default.html"
+          <Link
+            to={"/home"}
             className="p-2 text-center ms-3 menu-icon center-menu-icon"
           >
             <i className="feather-home font-lg alert-primary btn-round-lg theme-dark-bg text-current " />
-          </a>
-          <a
-            href="default-storie.html"
+          </Link>
+          <Link
+            to={"/stories"}
             className="p-2 text-center ms-0 menu-icon center-menu-icon"
           >
             <i className="feather-zap font-lg bg-greylight btn-round-lg theme-dark-bg text-grey-500 " />
-          </a>
-          <a
-            href="default-video.html"
+          </Link>
+          <Link
+            to={"videos"}
             className="p-2 text-center ms-0 menu-icon center-menu-icon"
           >
             <i className="feather-video font-lg bg-greylight btn-round-lg theme-dark-bg text-grey-500 " />
-          </a>
-          <a
-            href="default-group.html"
+          </Link>
+          <Link
+            to={"comunity"}
             className="p-2 text-center ms-0 menu-icon center-menu-icon"
           >
             <i className="feather-user font-lg bg-greylight btn-round-lg theme-dark-bg text-grey-500 " />
-          </a>
-          <a
-            href="shop-2.html"
+          </Link>
+          <Link
+            to={"shop"}
             className="p-2 text-center ms-0 menu-icon center-menu-icon"
           >
             <i className="feather-shopping-bag font-lg bg-greylight btn-round-lg theme-dark-bg text-grey-500 " />
-          </a>
-          <a
-            href="#"
+          </Link>
+          <div
             className="p-2 text-center ms-auto menu-icon"
             id="dropdownMenu3"
             data-toggle="dropdown"
@@ -75,7 +77,7 @@ function Navbar() {
           >
             <span className="dot-count bg-warning" />
             <i className="feather-bell font-xl text-current" />
-          </a>
+          </div>
           <div
             className="dropdown-menu dropdown-menu-end p-4 rounded-3 border-0 shadow-lg"
             aria-labelledby="dropdownMenu3"
@@ -83,7 +85,7 @@ function Navbar() {
             <h4 className="fw-700 font-xss mb-4">Notification</h4>
             <div className="card bg-transparent-card w-100 border-0 ps-5 mb-3">
               <img
-                src="images/user-8.png"
+                src={require("../../Assets/images/user-8.png")}
                 alt="user"
                 className="w40 position-absolute left-0"
               />
@@ -100,7 +102,7 @@ function Navbar() {
             </div>
             <div className="card bg-transparent-card w-100 border-0 ps-5 mb-3">
               <img
-                src="images/user-4.png"
+                src={require("../../Assets/images/user-4.png")}
                 alt="user"
                 className="w40 position-absolute left-0"
               />
@@ -117,7 +119,7 @@ function Navbar() {
             </div>
             <div className="card bg-transparent-card w-100 border-0 ps-5 mb-3">
               <img
-                src="images/user-7.png"
+                src={require("../../Assets/images/user-7.png")}
                 alt="user"
                 className="w40 position-absolute left-0"
               />
@@ -134,7 +136,7 @@ function Navbar() {
             </div>
             <div className="card bg-transparent-card w-100 border-0 ps-5">
               <img
-                src="images/user-6.png"
+                src={require("../../Assets/images/user-6.png")}
                 alt="user"
                 className="w40 position-absolute left-0"
               />
@@ -150,12 +152,12 @@ function Navbar() {
               </h6>
             </div>
           </div>
-          <a
-            href="#"
+          <Link
+            to={"chat"}
             className="p-2 text-center ms-3 menu-icon chat-active-btn"
           >
             <i className="feather-message-square font-xl text-current" />
-          </a>
+          </Link>
           <div className="p-2 text-center ms-3 position-relative dropdown-menu-icon menu-icon cursor-pointer">
             <i className="feather-settings animation-spin d-inline-block font-xl text-current" />
             <div className="dropdown-menu-settings switchcolor-wrap">
@@ -370,9 +372,13 @@ function Navbar() {
               </div>
             </div>
           </div>
-          <a href="default-settings.html" className="p-0 ms-3 menu-icon">
-            <img src="images/profile-4.png" alt="user" className="w40 mt--1" />
-          </a>
+          <Link to={"settings"} className="p-0 ms-3 menu-icon">
+            <img
+              src={require("../../Assets/images/profile-4.png")}
+              alt="user"
+              className="w40 mt--1"
+            />
+          </Link>
         </div>
         {/*----------------------------- navigation top */}
         {/* ---------------------------- navigation left */}
@@ -386,49 +392,37 @@ function Navbar() {
                 <ul className="mb-1 top-content">
                   <li className="logo d-none d-xl-block d-lg-block" />
                   <li>
-                    <a
-                      href="default.html"
-                      className="nav-content-bttn open-font"
-                    >
+                    <Link to={"home"} className="nav-content-bttn open-font">
                       <i className="feather-tv btn-round-md bg-blue-gradiant me-3" />
                       <span>Newsfeed</span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="default-badge.html"
-                      className="nav-content-bttn open-font"
-                    >
+                    <Link to={"badge"} className="nav-content-bttn open-font">
                       <i className="feather-award btn-round-md bg-red-gradiant me-3" />
                       <span>Badges</span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="default-storie.html"
-                      className="nav-content-bttn open-font"
-                    >
+                    <Link to={"stories"} className="nav-content-bttn open-font">
                       <i className="feather-globe btn-round-md bg-gold-gradiant me-3" />
                       <span>Explore Stories</span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="default-group.html"
+                    <Link
+                      to={"comunity"}
                       className="nav-content-bttn open-font"
                     >
                       <i className="feather-zap btn-round-md bg-mini-gradiant me-3" />
                       <span>Popular Groups</span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="user-page.html"
-                      className="nav-content-bttn open-font"
-                    >
+                    <Link to={"profile"} className="nav-content-bttn open-font">
                       <i className="feather-user btn-round-md bg-primary-gradiant me-3" />
                       <span>Author Profile </span>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -438,41 +432,35 @@ function Navbar() {
                 </div>
                 <ul className="mb-3">
                   <li>
-                    <a
-                      href="default-email-box.html"
+                    <Link
+                      to={"emailbox"}
                       className="nav-content-bttn open-font"
                     >
                       <i className="font-xl text-current feather-inbox me-3" />
                       <span>Email Box</span>
                       <span className="circle-count bg-warning mt-1">584</span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="default-hotel.html"
-                      className="nav-content-bttn open-font"
-                    >
+                    <Link to={"hotels"} className="nav-content-bttn open-font">
                       <i className="font-xl text-current feather-home me-3" />
                       <span>Near Hotel</span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="default-event.html"
-                      className="nav-content-bttn open-font"
-                    >
+                    <Link to={"events"} className="nav-content-bttn open-font">
                       <i className="font-xl text-current feather-map-pin me-3" />
                       <span>Latest Event</span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="default-live-stream.html"
+                    <Link
+                      to={"liveStream"}
                       className="nav-content-bttn open-font"
                     >
                       <i className="font-xl text-current feather-youtube me-3" />
                       <span>Live Stream</span>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -483,40 +471,38 @@ function Navbar() {
                 <ul className="mb-1">
                   <li className="logo d-none d-xl-block d-lg-block" />
                   <li>
-                    <a
-                      href="default-settings.html"
+                    <Link
+                      to={"settings"}
                       className="nav-content-bttn open-font h-auto pt-2 pb-2"
                     >
                       <i className="font-sm feather-settings me-3 text-grey-500" />
                       <span>Settings</span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="default-analytics.html"
+                    <Link
+                      to={"analytics"}
                       className="nav-content-bttn open-font h-auto pt-2 pb-2"
                     >
                       <i className="font-sm feather-pie-chart me-3 text-grey-500" />
                       <span>Analytics</span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="default-message.html"
+                    <Link
+                      to={"chat"}
                       className="nav-content-bttn open-font h-auto pt-2 pb-2"
                     >
                       <i className="font-sm feather-message-square me-3 text-grey-500" />
                       <span>Chat</span>
                       <span className="circle-count bg-warning mt-0">23</span>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
         </nav>
-
-        {/* old */}
       </nav>
     </div>
   );
