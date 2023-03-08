@@ -30,35 +30,46 @@ import Hotels from "./Pages/Hotels/Hotels.js";
 import Events from "./Pages/Events/Events.js";
 import LiveStreamCard from "./components/Defaults/LiveStreamCard.js";
 import DefaultAnalytics from "./components/Defaults/DefaultAnalytics.js";
+import LeftSideBar from "./components/generals/LeftSideBar.js";
+
 function App() {
   return (
+    <>
     <BrowserRouter>
       <Navbar />
+      <LeftSideBar />
       <Routes>
-        <Route path="/" element={<GuestPage />} />
-        <Route path="home" element={<Home />} />
-        <Route path="jobs" element={<JobCard />} />
-        <Route path="chat" element={<ChatCard />} />
-        <Route path="videos" element={<Video />} />
-        <Route path="stories" element={<Stories />} />
-        <Route path="shop" element={<Shop />} />
-        <Route path="settings" element={<Settings />} />
-        <Route path="badges" element={<DefaultBadge />} />
-        <Route path="jobs/:jobid" element={<JobCard />} />
-        <Route path="comunity" element={<Group />} />
-        <Route path="events" element={<Events />} />
-        <Route path="liveStream" element={<LiveStreamCard />} />
-        <Route path="analytics" element={<DefaultAnalytics />} />
+        {/* <Route path="/" element={<GuestPage />} /> */}
+        <Route path="/home" element={<Home />} />
+        <Route path="/jobs" element={<JobCard />} />
+        {/* <Route path="/chat" element={<ChatCard />} /> */}
+        {/* <Route path="/videos" element={<Video />} /> */}
+        {/* <Route path="/stories" element={<Stories />} /> */}
+        {/* <Route path="/shop" element={<Shop />} /> */}
+        {/* <Route path="/settings" element={<Settings />} /> */}
+        {/* <Route path="/badges" element={<DefaultBadge />} /> */}
+        {/* <Route path="/jobs/:jobid" element={<JobCard />} /> */}
+        {/* <Route path="/comunity" element={<Group />} /> */}
+        {/* <Route path="/events" element={<Events />} /> */}
+        {/* <Route path="/liveStream" element={<LiveStreamCard />} /> */}
+        {/* <Route path="/analytics" element={<DefaultAnalytics />} /> */}
 
-        <Route path="hotels" element={<Hotels />} />
-        <Route path="emailbox" element={<EmailBox />} />
+        {/* <Route path="/hotels" element={<Hotels />} /> */}
+        {/* <Route path="/emailbox" element={<EmailBox />} /> */}
         {/* <Route path="problems" element={<Problems />}/> */}
         {/* <Route path="problems/add" element={<AddProblem />}/> */}
         {/* <Route path="problems/:problemid" element={<SingleProblem />}/> */}
-        <Route path="profile" element={<UserPage />} />
+        <Route path="/profile" element={<UserPage />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
+    {/* <BrowserRouter>
+    <Routes>
+    <Route path="/test" element={<LeftSideBar />} />
+    </Routes>
+    </BrowserRouter> */}
+    </>
+
   );
 }
 
