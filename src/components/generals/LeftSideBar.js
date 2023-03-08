@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function LeftSideBar() {
   return (
@@ -14,49 +15,44 @@ function LeftSideBar() {
                 <ul className="mb-1 top-content">
                   <li className="logo d-none d-xl-block d-lg-block" />
                   <li>
-                    <a
-                      href="default.html"
+                    <Link to={'/home'}
                       className="nav-content-bttn open-font"
                     >
                       <i className="feather-tv btn-round-md bg-blue-gradiant me-3" />
                       <span>Newsfeed</span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="default-badge.html"
+                    <Link to={'/home'}
                       className="nav-content-bttn open-font"
                     >
                       <i className="feather-award btn-round-md bg-red-gradiant me-3" />
                       <span>Badges</span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="default-storie.html"
+                    <Link to={'/home'}
                       className="nav-content-bttn open-font"
                     >
                       <i className="feather-globe btn-round-md bg-gold-gradiant me-3" />
                       <span>Explore Stories</span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="default-group.html"
+                    <Link to={'/home'}
                       className="nav-content-bttn open-font"
                     >
                       <i className="feather-zap btn-round-md bg-mini-gradiant me-3" />
                       <span>Popular Groups</span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="user-page.html"
+                    <Link to={'/home'}
                       className="nav-content-bttn open-font"
                     >
                       <i className="feather-user btn-round-md bg-primary-gradiant me-3" />
                       <span>Author Profile </span>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -66,41 +62,37 @@ function LeftSideBar() {
                 </div>
                 <ul className="mb-3">
                   <li>
-                    <a
-                      href="default-email-box.html"
+                    <Link to={'/home'}
                       className="nav-content-bttn open-font"
                     >
                       <i className="font-xl text-current feather-inbox me-3" />
                       <span>Email Box</span>
                       <span className="circle-count bg-warning mt-1">584</span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="default-hotel.html"
+                    <Link to={'/home'}
                       className="nav-content-bttn open-font"
                     >
                       <i className="font-xl text-current feather-home me-3" />
                       <span>Near Hotel</span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="default-event.html"
+                    <Link to={'/home'}
                       className="nav-content-bttn open-font"
                     >
                       <i className="font-xl text-current feather-map-pin me-3" />
                       <span>Latest Event</span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="default-live-stream.html"
+                    <Link to={'/home'}
                       className="nav-content-bttn open-font"
                     >
                       <i className="font-xl text-current feather-youtube me-3" />
                       <span>Live Stream</span>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -111,32 +103,29 @@ function LeftSideBar() {
                 <ul className="mb-1">
                   <li className="logo d-none d-xl-block d-lg-block" />
                   <li>
-                    <a
-                      href="default-settings.html"
+                    <Link to={'/home'}
                       className="nav-content-bttn open-font h-auto pt-2 pb-2"
                     >
                       <i className="font-sm feather-settings me-3 text-grey-500" />
                       <span>Settings</span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="default-analytics.html"
+                    <Link to={'/home'}
                       className="nav-content-bttn open-font h-auto pt-2 pb-2"
                     >
                       <i className="font-sm feather-pie-chart me-3 text-grey-500" />
                       <span>Analytics</span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="default-message.html"
+                    <Link to={'/home'}
                       className="nav-content-bttn open-font h-auto pt-2 pb-2"
                     >
                       <i className="font-sm feather-message-square me-3 text-grey-500" />
                       <span>Chat</span>
                       <span className="circle-count bg-warning mt-0">23</span>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>

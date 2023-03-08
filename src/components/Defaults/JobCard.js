@@ -1,18 +1,19 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const JobCard = () => {
   return (
     <div>
       {/* Mirrored from uitheme.net/sociala/default-job.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 03 Mar 2023 23:30:32 GMT */}
       {/* Favicon icon */}
-    
+
       {/* Custom Stylesheet */}
       <div className="preloader" />
       <div className="main-wrapper">
         {/* navigation top*/}
-      
+
         {/* navigation top */}
-       
+
         {/* main content */}
         <div className="main-content right-chat-active">
           <div className="middle-sidebar-bottom">
@@ -35,12 +36,12 @@ const JobCard = () => {
                           placeholder="Search here."
                         />
                       </div>
-                      <a
-                        href="#"
+                      <Link
+                        to={"/home"}
                         className="btn-round-md ms-2 bg-greylight theme-dark-bg rounded-3"
                       >
                         <i className="feather-filter font-xss text-grey-500" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <div
@@ -86,12 +87,12 @@ const JobCard = () => {
                     <h6 className="d-inline-block p-2 text-secondary alert-secondary fw-600 font-xssss rounded-3 me-2">
                       Developer
                     </h6>
-                    <a
-                      href="#"
+                    <Link
+                      to={"/home"}
                       className="position-absolute bottom-15 mb-3 right-15"
                     >
                       <i className="btn-round-sm bg-primary-gradiant text-white font-sm feather-chevron-right" />
-                    </a>
+                    </Link>
                   </div>
                   <div
                     className="card d-block w-100 border-0 mb-3 shadow-xss bg-white rounded-3 p-4"
@@ -136,12 +137,12 @@ const JobCard = () => {
                     <h6 className="d-inline-block p-2 text-secondary alert-secondary fw-600 font-xssss rounded-3 me-2">
                       Developer
                     </h6>
-                    <a
-                      href="#"
+                    <Link
+                      to={"/home"}
                       className="position-absolute bottom-15 mb-3 right-15"
                     >
                       <i className="btn-round-sm bg-primary-gradiant text-white font-sm feather-chevron-right" />
-                    </a>
+                    </Link>
                   </div>
                   <div
                     className="card d-block w-100 border-0 mb-3 shadow-xss bg-white rounded-3 p-4"
@@ -186,12 +187,12 @@ const JobCard = () => {
                     <h6 className="d-inline-block p-2 text-secondary alert-secondary fw-600 font-xssss rounded-3 me-2">
                       Developer
                     </h6>
-                    <a
-                      href="#"
+                    <Link
+                      to={"/home"}
                       className="position-absolute bottom-15 mb-3 right-15"
                     >
                       <i className="btn-round-sm bg-primary-gradiant text-white font-sm feather-chevron-right" />
-                    </a>
+                    </Link>
                   </div>
                   <div
                     className="card d-block w-100 border-0 mb-3 shadow-xss bg-white rounded-3 p-4"
@@ -236,12 +237,12 @@ const JobCard = () => {
                     <h6 className="d-inline-block p-2 text-secondary alert-secondary fw-600 font-xssss rounded-3 me-2">
                       Developer
                     </h6>
-                    <a
-                      href="#"
+                    <Link
+                      to={"/home"}
                       className="position-absolute bottom-15 mb-3 right-15"
                     >
                       <i className="btn-round-sm bg-primary-gradiant text-white font-sm feather-chevron-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* <div className="col-xl-6 ps-0 d-none d-xl-block">
@@ -259,32 +260,28 @@ const JobCard = () => {
         </div>
         {/* main content */}
         {/* right chat */}
-      
+
         {/* right chat */}
         <div className="app-footer border-0 shadow-lg bg-primary-gradiant">
-          <a href="default.html" className="nav-content-bttn nav-center">
+          <Link to={"/home"} className="nav-content-bttn nav-center">
             <i className="feather-home" />
-          </a>
-          <a href="default-video.html" className="nav-content-bttn">
+          </Link>
+          <Link to={"/home"} className="nav-content-bttn">
             <i className="feather-package" />
-          </a>
-          <a
-            href="default-live-stream.html"
-            className="nav-content-bttn"
-            data-tab="chats"
-          >
+          </Link>
+          <Link to={"/home"} className="nav-content-bttn" data-tab="chats">
             <i className="feather-layout" />
-          </a>
-          <a href="shop-2.html" className="nav-content-bttn">
+          </Link>
+          <Link to={"/home"} className="nav-content-bttn">
             <i className="feather-layers" />
-          </a>
-          <a href="default-settings.html" className="nav-content-bttn">
+          </Link>
+          <Link to={"/home"} className="nav-content-bttn">
             <img
               src={require("../../Assets/images/female-profile.png")}
               alt="user"
               className="w30 shadow-xss"
             />
-          </a>
+          </Link>
         </div>
         <div className="app-header-search">
           <form className="search-form">
@@ -302,12 +299,12 @@ const JobCard = () => {
                   aria-label="search outline"
                 />
               </i>
-              <a
-                href="#"
+              <Link
+                to={"/home"}
                 className="ms-1 mt-1 d-inline-block close searchbox-close"
               >
                 <i className="ti-close font-xs" />
-              </a>
+              </Link>
             </div>
           </form>
         </div>
@@ -333,16 +330,28 @@ const JobCard = () => {
               <div className="card w-100 border-0 rounded-3 overflow-hidden bg-gradiant-bottom bg-gradiant-top">
                 <div className="owl-carousel owl-theme dot-style3 story-slider owl-dot-nav nav-none">
                   <div className="item">
-                    <img src={require("../../Assets/images/story-5.jpg")} alt="image" />
+                    <img
+                      src={require("../../Assets/images/story-5.jpg")}
+                      alt="image"
+                    />
                   </div>
                   <div className="item">
-                    <img src={require("../../Assets/images/story-6.jpg")} alt="image" />
+                    <img
+                      src={require("../../Assets/images/story-6.jpg")}
+                      alt="image"
+                    />
                   </div>
                   <div className="item">
-                    <img src={require("../../Assets/images/story-7.jpg")} alt="image" />
+                    <img
+                      src={require("../../Assets/images/story-7.jpg")}
+                      alt="image"
+                    />
                   </div>
                   <div className="item">
-                    <img src={require("../../Assets/images/story-8.jpg" )}alt="image" />
+                    <img
+                      src={require("../../Assets/images/story-8.jpg")}
+                      alt="image"
+                    />
                   </div>
                 </div>
               </div>
@@ -379,12 +388,12 @@ const JobCard = () => {
                 <span className="d-inline-block bg-success btn-round-xss m-0" />{" "}
                 Available
               </h4>
-              <a
-                href="#"
+              <Link
+                to={"/home"}
                 className="font-xssss position-absolute right-0 top-0 mt-3 me-4"
               >
                 <i className="ti-close text-grey-900 mt-2 d-inline-block" />
-              </a>
+              </Link>
             </div>
           </div>
           <div className="modal-popup-body w-100 p-3 h-auto">
