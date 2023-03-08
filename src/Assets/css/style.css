@@ -2740,11 +2740,12 @@ progress {
     border-radius: 0;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
-@media (prefers-reduced-motion:reduce) {
+/* @media (prefers-reduced-motion:reduce) {
     .form-control: :file-selector-button {
     transition: none;
 }
-}.form-control:hover:not(:disabled):not([readonly])::file-selector-button {
+} */
+.form-control:hover:not(:disabled):not([readonly])::file-selector-button {
     background-color: #dde0e3;
 }
 .form-control::-webkit-file-upload-button {
@@ -2761,11 +2762,12 @@ progress {
     border-radius: 0;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
-@media (prefers-reduced-motion:reduce) {
+/* @media (prefers-reduced-motion:reduce) {
     .form-control: :-webkit-file-upload-button {
     transition: none;
 }
-}.form-control:hover:not(:disabled):not([readonly])::-webkit-file-upload-button {
+} */
+.form-control:hover:not(:disabled):not([readonly])::-webkit-file-upload-button {
     background-color: #dde0e3;
 }
 .form-control-plaintext {
@@ -3009,9 +3011,9 @@ textarea.form-control-lg {
     appearance: none;
 }
 @media (prefers-reduced-motion:reduce) {
-    .form-range: :-webkit-slider-thumb {
+    /* .form-range: :-webkit-slider-thumb {
     transition: none;
-}
+} */
 }.form-range::-webkit-slider-thumb:active {
     background-color: #bcd5fe;
 }
@@ -3034,9 +3036,9 @@ textarea.form-control-lg {
     appearance: none;
 }
 @media (prefers-reduced-motion:reduce) {
-    .form-range: :-moz-range-thumb {
+    /* .form-range: :-moz-range-thumb {
     transition: none;
-}
+} */
 }.form-range::-moz-range-thumb:active {
     background-color: #bcd5fe;
 }
@@ -4689,9 +4691,9 @@ textarea.form-control-lg {
     transition: transform .2s ease-in-out;
 }
 @media (prefers-reduced-motion:reduce) {
-    .accordion-button: :after {
+    /* .accordion-button: :after {
     transition: none;
-}
+} */
 }.accordion-button:hover {
     z-index: 2;
 }
@@ -9782,13 +9784,13 @@ a.active, a:focus, a:hover {
 .h-0 {
     height: 0;
 }
-.main-wrap, .main-wrapper {
+/* .main-wrap, .main-wrapper {
     opacity: 1;
     transition: all .25s ease-in;
     overflow: hidden;
     position: relative;
     z-index: 1;
-}
+} */
 .main-wrap.show, .main-wrapper.show {
     opacity: 1;
 }
@@ -10253,9 +10255,9 @@ a.active, a:focus, a:hover {
     margin: 1px 5px;
 }
 @media (max-width:767.98px) {
-    .navigation .nav-content ul li: not(.logo) {
+    /* .navigation .nav-content ul li: not(.logo) {
     margin: 4px 0;
-}
+} */
 }.navigation .nav-content ul li:not(.logo) a {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -10447,12 +10449,12 @@ a.active, a:focus, a:hover {
 }.main-content:not(.right-chat-active) {
     padding-right: 0;
 }
-.main-content.menu-active {
+/* .main-content.menu-active {
     padding-left: 90px;
-}
-.main-content.menu-active .middle-sidebar-header.sticky-header {
+} */
+/* .main-content.menu-active .middle-sidebar-header.sticky-header {
     left: 90px;
-}
+} */
 @media (max-width:767.98px) {
     .main-content {
     order: 1;
@@ -11296,9 +11298,9 @@ body:not(.theme-full) .main-content .middle-sidebar-bottom.header-padding {
     transition: all .5s ease;
 }
 @media only screen and (max-width:768px) {
-    .accordion .card button: after {
+    /* .accordion .card button: after {
     right: 10px;
-}
+} */
 }.accordion .card button.small-text:after {
     top: 33px;
 }
@@ -12647,9 +12649,9 @@ select.sort {
     background-repeat: no-repeat;
 }
 @media only screen and (max-width:768px) {
-    .arrow-right: after {
+    /* .arrow-right: after {
     display: none;
-}
+} */
 }.nav-tabs li a {
     transition: all .4s ease;
 }
@@ -13336,7 +13338,7 @@ select.sort {
     display: flex!important;
     flex-basis: auto;
 }
-.main-wrapper {
+/* .main-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -13346,7 +13348,7 @@ select.sort {
     flex-direction: column;
     min-height: 100vh;
     overflow: hidden;
-}
+} */
 .middle-wrap {
     max-width: 800px;
     margin-left: auto;
