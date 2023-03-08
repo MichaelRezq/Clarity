@@ -3,7 +3,6 @@ import React from "react";
 const ComunityPage = () => {
   return (
     <div>
-      <div className="preloader" />
       <div className="main-wrapper">
         {/* main content */}
         <div className="main-content right-chat-active">

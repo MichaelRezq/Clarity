@@ -1,9 +1,10 @@
 import React from "react";
+import LeftSideBar from "../../components/generals/LeftSideBar";
 
 const Home = () => {
   return (
     <>
-      <div>
+      <>
         <div className="main-wrapper">
           {/* main content */}
           <div className="main-content right-chat-active">
@@ -40,181 +41,7 @@ const Home = () => {
                 <div className="row feed-body">
                   <div className="col-xl-8 col-xxl-9 col-lg-8">
                     <div className="card w-100 shadow-none bg-transparent bg-transparent-card border-0 p-0 mb-0">
-                      <div className="owl-carousel category-card owl-theme overflow-hidden nav-none">
-                        <div className="item">
-                          <div
-                            data-bs-toggle="modal"
-                            data-bs-target="#Modalstory"
-                            className="card w125 h200 d-block border-0 shadow-none rounded-xxxl bg-dark overflow-hidden mb-3 mt-3"
-                          >
-                            <div className="card-body d-block p-3 w-100 position-absolute bottom-0 text-center">
-                              <a href="#">
-                                <span className="btn-round-lg bg-white">
-                                  <i className="feather-plus font-lg" />
-                                </span>
-                                <div className="clearfix" />
-                                <h4 className="fw-700 position-relative z-index-1 ls-1 font-xssss text-white mt-2 mb-1">
-                                  Add Story{" "}
-                                </h4>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="item">
-                          <div
-                            data-bs-toggle="modal"
-                            data-bs-target="#Modalstory"
-                            className="card w125 h200 d-block border-0 shadow-xss rounded-xxxl bg-gradiant-bottom overflow-hidden cursor-pointer mb-3 mt-3"
-                            style={{ backgroundImage: "url(images/s-1.jpg)" }}
-                          >
-                            <div className="card-body d-block p-3 w-100 position-absolute bottom-0 text-center">
-                              <a href="#">
-                                <figure className="avatar ms-auto me-auto mb-0 position-relative w50 z-index-1">
-                                  <img
-                                    src={require("../../Assets/images/user-11.png")}
-                                    alt="image"
-                                    className="float-right p-0 bg-white rounded-circle w-100 shadow-xss"
-                                  />
-                                </figure>
-                                <div className="clearfix" />
-                                <h4 className="fw-600 position-relative z-index-1 ls-1 font-xssss text-white mt-2 mb-1">
-                                  Victor Exrixon{" "}
-                                </h4>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="item">
-                          <div
-                            data-bs-toggle="modal"
-                            data-bs-target="#Modalstory"
-                            className="card w125 h200 d-block border-0 shadow-xss rounded-xxxl bg-gradiant-bottom overflow-hidden cursor-pointer mb-3 mt-3"
-                            style={{ backgroundImage: "url(images/s-2.jpg)" }}
-                          >
-                            <div className="card-body d-block p-3 w-100 position-absolute bottom-0 text-center">
-                              <a href="#">
-                                <figure className="avatar ms-auto me-auto mb-0 position-relative w50 z-index-1">
-                                  <img
-                                    src={require("../../Assets/images/user-12.png")}
-                                    alt="image"
-                                    className="float-right p-0 bg-white rounded-circle w-100 shadow-xss"
-                                  />
-                                </figure>
-                                <div className="clearfix" />
-                                <h4 className="fw-600 position-relative z-index-1 ls-1 font-xssss text-white mt-2 mb-1">
-                                  Surfiya Zakir{" "}
-                                </h4>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="item">
-                          <div
-                            data-bs-toggle="modal"
-                            data-bs-target="#Modalstory"
-                            className="card w125 h200 d-block border-0 shadow-xss rounded-xxxl bg-gradiant-bottom overflow-hidden cursor-pointer mb-3 mt-3"
-                          >
-                            <video autoPlay loop className="float-right w-100">
-                              <source
-                                src={require("../../Assets/images/s-4.mp4")}
-                                type="video/mp4"
-                              />
-                            </video>
-                            <div className="card-body d-block p-3 w-100 position-absolute bottom-0 text-center">
-                              <a href="#">
-                                <figure className="avatar ms-auto me-auto mb-0 position-relative w50 z-index-1">
-                                  <img
-                                    src={require("../../Assets/images/user-9.png")}
-                                    alt="image"
-                                    className="float-right p-0 bg-white rounded-circle w-100 shadow-xss"
-                                  />
-                                </figure>
-                                <div className="clearfix" />
-                                <h4 className="fw-600 position-relative z-index-1 ls-1 font-xssss text-white mt-2 mb-1">
-                                  Goria Coast{" "}
-                                </h4>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="item">
-                          <div
-                            data-bs-toggle="modal"
-                            data-bs-target="#Modalstory"
-                            className="card w125 h200 d-block border-0 shadow-xss rounded-xxxl bg-gradiant-bottom overflow-hidden cursor-pointer mb-3 mt-3 me-1"
-                          >
-                            <video autoPlay loop className="float-right w-100">
-                              <source
-                                src={require("../../Assets/images/s-3.mp4")}
-                                type="video/mp4"
-                              />
-                            </video>
-                            <div className="card-body d-block p-3 w-100 position-absolute bottom-0 text-center">
-                              <a href="#">
-                                <figure className="avatar ms-auto me-auto mb-0 position-relative w50 z-index-1">
-                                  <img
-                                    src={require("../../Assets/images/user-4.png")}
-                                    alt="image"
-                                    className="float-right p-0 bg-white rounded-circle w-100 shadow-xss"
-                                  />
-                                </figure>
-                                <div className="clearfix" />
-                                <h4 className="fw-600 position-relative z-index-1 ls-1 font-xssss text-white mt-2 mb-1">
-                                  Hurin Seary{" "}
-                                </h4>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="item">
-                          <div
-                            data-bs-toggle="modal"
-                            data-bs-target="#Modalstory"
-                            className="card w125 h200 d-block border-0 shadow-xss rounded-xxxl bg-gradiant-bottom overflow-hidden cursor-pointer mb-3 mt-3"
-                            style={{ backgroundImage: "url(images/s-5.jpg)" }}
-                          >
-                            <div className="card-body d-block p-3 w-100 position-absolute bottom-0 text-center">
-                              <a href="#">
-                                <figure className="avatar ms-auto me-auto mb-0 position-relative w50 z-index-1">
-                                  <img
-                                    src={require("../../Assets/images/user-3.png")}
-                                    alt="image"
-                                    className="float-right p-0 bg-white rounded-circle w-100 shadow-xss"
-                                  />
-                                </figure>
-                                <div className="clearfix" />
-                                <h4 className="fw-600 position-relative z-index-1 ls-1 font-xssss text-white mt-2 mb-1">
-                                  David Goria{" "}
-                                </h4>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="item">
-                          <div
-                            data-bs-toggle="modal"
-                            data-bs-target="#Modalstory"
-                            className="card w125 h200 d-block border-0 shadow-xss rounded-xxxl bg-gradiant-bottom overflow-hidden cursor-pointer mb-3 mt-3"
-                            style={{ backgroundImage: "url(images/s-6.jpg)" }}
-                          >
-                            <div className="card-body d-block p-3 w-100 position-absolute bottom-0 text-center">
-                              <a href="#">
-                                <figure className="avatar ms-auto me-auto mb-0 position-relative w50 z-index-1">
-                                  <img
-                                    src={require("../../Assets/images/user-2.png")}
-                                    alt="image"
-                                    className="float-right p-0 bg-white rounded-circle w-100 shadow-xss"
-                                  />
-                                </figure>
-                                <div className="clearfix" />
-                                <h4 className="fw-600 position-relative z-index-1 ls-1 font-xssss text-white mt-2 mb-1">
-                                  Seary Victor{" "}
-                                </h4>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                      
                     </div>
                     <div className="card w-100 shadow-xss rounded-xxl border-0 ps-4 pt-4 pe-4 pb-3 mb-3">
                       <div className="card-body p-0">
@@ -576,7 +403,7 @@ const Home = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="card w-100 shadow-xss rounded-xxl border-0 p-4 mb-0">
+                    <div className="card w-100 shadow-xss rounded-xxl border-0 p-4 mb-3">
                       <div className="card-body p-0 d-flex">
                         <figure className="avatar me-3 m-0">
                           <img
@@ -797,214 +624,7 @@ const Home = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="card w-100 shadow-none bg-transparent bg-transparent-card border-0 p-0 mb-0">
-                      <div className="owl-carousel category-card owl-theme overflow-hidden nav-none">
-                        <div className="item">
-                          <div className="card w200 d-block border-0 shadow-xss rounded-xxl overflow-hidden mb-3 me-2 mt-3">
-                            <div
-                              className="card-body position-relative h100 bg-image-cover bg-image-center"
-                              style={{
-                                backgroundImage: "url(images/u-bg.jpg)",
-                              }}
-                            />
-                            <div className="card-body d-block w-100 ps-4 pe-4 pb-4 text-center">
-                              <figure className="avatar ms-auto me-auto mb-0 mt--6 position-relative w75 z-index-1">
-                                <img
-                                  src={require("../../Assets/images/user-11.png")}
-                                  alt="image"
-                                  className="float-right p-1 bg-white rounded-circle w-100"
-                                />
-                              </figure>
-                              <div className="clearfix" />
-                              <h4 className="fw-700 font-xsss mt-2 mb-1">
-                                Aliqa Macale{" "}
-                              </h4>
-                              <p className="fw-500 font-xsssss text-grey-500 mt-0 mb-2">
-                                support@gmail.com
-                              </p>
-                              <span className="live-tag mt-2 mb-0 bg-danger p-2 z-index-1 rounded-3 text-white font-xsssss text-uppersace fw-700 ls-3">
-                                LIVE
-                              </span>
-                              <div className="clearfix mb-2" />
-                            </div>
-                          </div>
-                        </div>
-                        <div className="item">
-                          <div className="card w200 d-block border-0 shadow-xss rounded-xxl overflow-hidden mb-3 me-2 mt-3">
-                            <div
-                              className="card-body position-relative h100 bg-image-cover bg-image-center"
-                              style={{ backgroundImage: "url(images/s-2.jpg)" }}
-                            />
-                            <div className="card-body d-block w-100 ps-4 pe-4 pb-4 text-center">
-                              <figure className="avatar ms-auto me-auto mb-0 mt--6 position-relative w75 z-index-1">
-                                <img
-                                  src={require("../../Assets/images/user-2.png")}
-                                  alt="image"
-                                  className="float-right p-1 bg-white rounded-circle w-100"
-                                />
-                              </figure>
-                              <div className="clearfix" />
-                              <h4 className="fw-700 font-xsss mt-2 mb-1">
-                                Seary Victor{" "}
-                              </h4>
-                              <p className="fw-500 font-xsssss text-grey-500 mt-0 mb-2">
-                                support@gmail.com
-                              </p>
-                              <span className="live-tag mt-2 mb-0 bg-danger p-2 z-index-1 rounded-3 text-white font-xsssss text-uppersace fw-700 ls-3">
-                                LIVE
-                              </span>
-                              <div className="clearfix mb-2" />
-                            </div>
-                          </div>
-                        </div>
-                        <div className="item">
-                          <div className="card w200 d-block border-0 shadow-xss rounded-xxl overflow-hidden mb-3 me-2 mt-3">
-                            <div
-                              className="card-body position-relative h100 bg-image-cover bg-image-center"
-                              style={{ backgroundImage: "url(images/s-6.jpg)" }}
-                            />
-                            <div className="card-body d-block w-100 ps-4 pe-4 pb-4 text-center">
-                              <figure className="avatar ms-auto me-auto mb-0 mt--6 position-relative w75 z-index-1">
-                                <img
-                                  src={require("../../Assets/images/user-3.png")}
-                                  alt="image"
-                                  className="float-right p-1 bg-white rounded-circle w-100"
-                                />
-                              </figure>
-                              <div className="clearfix" />
-                              <h4 className="fw-700 font-xsss mt-2 mb-1">
-                                John Steere{" "}
-                              </h4>
-                              <p className="fw-500 font-xsssss text-grey-500 mt-0 mb-2">
-                                support@gmail.com
-                              </p>
-                              <span className="live-tag mt-2 mb-0 bg-danger p-2 z-index-1 rounded-3 text-white font-xsssss text-uppersace fw-700 ls-3">
-                                LIVE
-                              </span>
-                              <div className="clearfix mb-2" />
-                            </div>
-                          </div>
-                        </div>
-                        <div className="item">
-                          <div className="card w200 d-block border-0 shadow-xss rounded-xxl overflow-hidden mb-3 me-2 mt-3">
-                            <div
-                              className="card-body position-relative h100 bg-image-cover bg-image-center"
-                              style={{
-                                backgroundImage: "url(images/bb-16.png)",
-                              }}
-                            />
-                            <div className="card-body d-block w-100 ps-4 pe-4 pb-4 text-center">
-                              <figure className="avatar ms-auto me-auto mb-0 mt--6 position-relative w75 z-index-1">
-                                <img
-                                  src={require("../../Assets/images/user-4.png")}
-                                  alt="image"
-                                  className="float-right p-1 bg-white rounded-circle w-100"
-                                />
-                              </figure>
-                              <div className="clearfix" />
-                              <h4 className="fw-700 font-xsss mt-2 mb-1">
-                                Mohannad Zitoun{" "}
-                              </h4>
-                              <p className="fw-500 font-xsssss text-grey-500 mt-0 mb-2">
-                                support@gmail.com
-                              </p>
-                              <span className="live-tag mt-2 mb-0 bg-danger p-2 z-index-1 rounded-3 text-white font-xsssss text-uppersace fw-700 ls-3">
-                                LIVE
-                              </span>
-                              <div className="clearfix mb-2" />
-                            </div>
-                          </div>
-                        </div>
-                        <div className="item">
-                          <div className="card w200 d-block border-0 shadow-xss rounded-xxl overflow-hidden mb-3 me-2 mt-3">
-                            <div
-                              className="card-body position-relative h100 bg-image-cover bg-image-center"
-                              style={{ backgroundImage: "url(images/e-4.jpg)" }}
-                            />
-                            <div className="card-body d-block w-100 ps-4 pe-4 pb-4 text-center">
-                              <figure className="avatar ms-auto me-auto mb-0 mt--6 position-relative w75 z-index-1">
-                                <img
-                                  src={require("../../Assets/images/user-7.png")}
-                                  alt="image"
-                                  className="float-right p-1 bg-white rounded-circle w-100"
-                                />
-                              </figure>
-                              <div className="clearfix" />
-                              <h4 className="fw-700 font-xsss mt-2 mb-1">
-                                Studio Express{" "}
-                              </h4>
-                              <p className="fw-500 font-xsssss text-grey-500 mt-0 mb-2">
-                                support@gmail.com
-                              </p>
-                              <span className="live-tag mt-2 mb-0 bg-danger p-2 z-index-1 rounded-3 text-white font-xsssss text-uppersace fw-700 ls-3">
-                                LIVE
-                              </span>
-                              <div className="clearfix mb-2" />
-                            </div>
-                          </div>
-                        </div>
-                        <div className="item">
-                          <div className="card w200 d-block border-0 shadow-xss rounded-xxl overflow-hidden mb-3 me-2 mt-3">
-                            <div
-                              className="card-body position-relative h100 bg-image-cover bg-image-center"
-                              style={{
-                                backgroundImage: "url(images/coming-soon.png)",
-                              }}
-                            />
-                            <div className="card-body d-block w-100 ps-4 pe-4 pb-4 text-center">
-                              <figure className="avatar ms-auto me-auto mb-0 mt--6 position-relative w75 z-index-1">
-                                <img
-                                  src={require("../../Assets/images/user-5.png")}
-                                  alt="image"
-                                  className="float-right p-1 bg-white rounded-circle w-100"
-                                />
-                              </figure>
-                              <div className="clearfix" />
-                              <h4 className="fw-700 font-xsss mt-2 mb-1">
-                                Hendrix Stamp{" "}
-                              </h4>
-                              <p className="fw-500 font-xsssss text-grey-500 mt-0 mb-2">
-                                support@gmail.com
-                              </p>
-                              <span className="live-tag mt-2 mb-0 bg-danger p-2 z-index-1 rounded-3 text-white font-xsssss text-uppersace fw-700 ls-3">
-                                LIVE
-                              </span>
-                              <div className="clearfix mb-2" />
-                            </div>
-                          </div>
-                        </div>
-                        <div className="item">
-                          <div className="card w200 d-block border-0 shadow-xss rounded-xxl overflow-hidden mb-3 me-2 mt-3">
-                            <div
-                              className="card-body position-relative h100 bg-image-cover bg-image-center"
-                              style={{
-                                backgroundImage: "url(images/bb-9.jpg)",
-                              }}
-                            />
-                            <div className="card-body d-block w-100 ps-4 pe-4 pb-4 text-center">
-                              <figure className="avatar ms-auto me-auto mb-0 mt--6 position-relative w75 z-index-1">
-                                <img
-                                  src={require("../../Assets/images/user-6.png")}
-                                  alt="image"
-                                  className="float-right p-1 bg-white rounded-circle w-100"
-                                />
-                              </figure>
-                              <div className="clearfix" />
-                              <h4 className="fw-700 font-xsss mt-2 mb-1">
-                                Mohannad Zitoun{" "}
-                              </h4>
-                              <p className="fw-500 font-xsssss text-grey-500 mt-0 mb-2">
-                                support@gmail.com
-                              </p>
-                              <span className="live-tag mt-2 mb-0 bg-danger p-2 z-index-1 rounded-3 text-white font-xsssss text-uppersace fw-700 ls-3">
-                                LIVE
-                              </span>
-                              <div className="clearfix mb-2" />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                   
                     <div className="card w-100 shadow-xss rounded-xxl border-0 p-4 mb-3">
                       <div className="card-body p-0 d-flex">
                         <figure className="avatar me-3">
@@ -1145,7 +765,7 @@ const Home = () => {
                         </a>
                       </div>
                     </div>
-                    <div className="card w-100 shadow-xss rounded-xxl border-0 p-4 mb-0">
+                    <div className="card w-100 shadow-xss rounded-xxl border-0 p-4 mb-3">
                       <div className="card-body p-0 d-flex">
                         <figure className="avatar me-3">
                           <img
@@ -1286,140 +906,7 @@ const Home = () => {
                         </a>
                       </div>
                     </div>
-                    <div className="card w-100 shadow-none bg-transparent bg-transparent-card border-0 p-0 mb-0">
-                      <div className="owl-carousel category-card owl-theme overflow-hidden nav-none">
-                        <div className="item">
-                          <div className="card w150 d-block border-0 shadow-xss rounded-3 overflow-hidden mb-3 me-2 mt-3">
-                            <div className="card-body d-block w-100 ps-3 pe-3 pb-4 text-center">
-                              <figure className="avatar ms-auto me-auto mb-0 position-relative w65 z-index-1">
-                                <img
-                                  src={require("../../Assets/images/user-11.png")}
-                                  alt="image"
-                                  className="float-right p-0 bg-white rounded-circle w-100 shadow-xss"
-                                />
-                              </figure>
-                              <div className="clearfix" />
-                              <h4 className="fw-700 font-xssss mt-3 mb-1">
-                                Richard Bowers
-                              </h4>
-                              <p className="fw-500 font-xsssss text-grey-500 mt-0 mb-3">
-                                @macale343
-                              </p>
-                              <a
-                                href="#"
-                                className="text-center p-2 lh-20 w100 ms-1 ls-3 d-inline-block rounded-xl bg-success font-xsssss fw-700 ls-lg text-white"
-                              >
-                                FOLLOW
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="item">
-                          <div className="card w150 d-block border-0 shadow-xss rounded-3 overflow-hidden mb-3 me-2 mt-3">
-                            <div className="card-body d-block w-100 ps-3 pe-3 pb-4 text-center">
-                              <figure className="avatar ms-auto me-auto mb-0 position-relative w65 z-index-1">
-                                <img
-                                  src={require("../../Assets/images/user-9.png")}
-                                  alt="image"
-                                  className="float-right p-0 bg-white rounded-circle w-100 shadow-xss"
-                                />
-                              </figure>
-                              <div className="clearfix" />
-                              <h4 className="fw-700 font-xssss mt-3 mb-1">
-                                David Goria{" "}
-                              </h4>
-                              <p className="fw-500 font-xsssss text-grey-500 mt-0 mb-3">
-                                @macale343
-                              </p>
-                              <a
-                                href="#"
-                                className="text-center p-2 lh-20 w100 ms-1 ls-3 d-inline-block rounded-xl bg-success font-xsssss fw-700 ls-lg text-white"
-                              >
-                                FOLLOW
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="item">
-                          <div className="card w150 d-block border-0 shadow-xss rounded-3 overflow-hidden mb-3 me-2 mt-3">
-                            <div className="card-body d-block w-100 ps-3 pe-3 pb-4 text-center">
-                              <figure className="avatar ms-auto me-auto mb-0 position-relative w65 z-index-1">
-                                <img
-                                  src={require("../../Assets/images/user-12.png")}
-                                  alt="image"
-                                  className="float-right p-0 bg-white rounded-circle w-100 shadow-xss"
-                                />
-                              </figure>
-                              <div className="clearfix" />
-                              <h4 className="fw-700 font-xssss mt-3 mb-1">
-                                Vincent Parks
-                              </h4>
-                              <p className="fw-500 font-xsssss text-grey-500 mt-0 mb-3">
-                                @macale343
-                              </p>
-                              <a
-                                href="#"
-                                className="text-center p-2 lh-20 w100 ms-1 ls-3 d-inline-block rounded-xl bg-success font-xsssss fw-700 ls-lg text-white"
-                              >
-                                FOLLOW
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="item">
-                          <div className="card w150 d-block border-0 shadow-xss rounded-3 overflow-hidden mb-3 me-2 mt-3">
-                            <div className="card-body d-block w-100 ps-3 pe-3 pb-4 text-center">
-                              <figure className="avatar ms-auto me-auto mb-0 position-relative w65 z-index-1">
-                                <img
-                                  src={require("../../Assets/images/user-8.png")}
-                                  alt="image"
-                                  className="float-right p-0 bg-white rounded-circle w-100 shadow-xss"
-                                />
-                              </figure>
-                              <div className="clearfix" />
-                              <h4 className="fw-700 font-xssss mt-3 mb-1">
-                                Studio Express{" "}
-                              </h4>
-                              <p className="fw-500 font-xsssss text-grey-500 mt-0 mb-3">
-                                @macale343
-                              </p>
-                              <a
-                                href="#"
-                                className="text-center p-2 lh-20 w100 ms-1 ls-3 d-inline-block rounded-xl bg-success font-xsssss fw-700 ls-lg text-white"
-                              >
-                                FOLLOW
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="item">
-                          <div className="card w150 d-block border-0 shadow-xss rounded-3 overflow-hidden mb-3 me-2 mt-3">
-                            <div className="card-body d-block w-100 ps-3 pe-3 pb-4 text-center">
-                              <figure className="avatar ms-auto me-auto mb-0 position-relative w65 z-index-1">
-                                <img
-                                  src={require("../../Assets/images/user-7.png")}
-                                  alt="image"
-                                  className="float-right p-0 bg-white rounded-circle w-100 shadow-xss"
-                                />
-                              </figure>
-                              <div className="clearfix" />
-                              <h4 className="fw-700 font-xssss mt-3 mb-1">
-                                Aliqa Macale{" "}
-                              </h4>
-                              <p className="fw-500 font-xsssss text-grey-500 mt-0 mb-3">
-                                @macale343
-                              </p>
-                              <a
-                                href="#"
-                                className="text-center p-2 lh-20 w100 ms-1 ls-3 d-inline-block rounded-xl bg-success font-xsssss fw-700 ls-lg text-white"
-                              >
-                                FOLLOW
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                    
                     <div className="card w-100 shadow-xss rounded-xxl border-0 p-4 mb-3">
                       <div className="card-body p-0 d-flex">
                         <figure className="avatar me-3">
@@ -1609,16 +1096,7 @@ const Home = () => {
                         </a>
                       </div>
                     </div>
-                    <div className="card w-100 text-center shadow-xss rounded-xxl border-0 p-4 mb-3 mt-3">
-                      <div
-                        className="snippet mt-2 ms-auto me-auto"
-                        data-title=".dot-typing"
-                      >
-                        <div className="stage">
-                          <div className="dot-typing" />
-                        </div>
-                      </div>
-                    </div>
+                   
                   </div>
                   <div className="col-xl-4 col-xxl-3 col-lg-4 ps-lg-0">
                     <div className="card w-100 shadow-xss rounded-xxl border-0 mb-3">
@@ -2442,7 +1920,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </>
     </>
   );
 };
