@@ -31,6 +31,7 @@ import Events from "./Pages/Events/Events.js";
 import LiveStreamCard from "./components/Defaults/LiveStreamCard.js";
 import DefaultAnalytics from "./components/Defaults/DefaultAnalytics.js";
 import LeftSideBar from "./components/generals/LeftSideBar.js";
+import Problems from "./Pages/Problems/Problems.js";
 
 function App() {
   return (
@@ -40,8 +41,10 @@ function App() {
       <LeftSideBar />
       <Routes>
         {/* <Route path="/" element={<GuestPage />} /> */}
-        <Route path="/home" element={<Home />} />
+        <Route path="/home"  element={<Home />} />
         <Route path="/jobs" element={<JobCard />} />
+        <Route path="/problems" element={<Problems />}/>
+
         {/* <Route path="/chat" element={<ChatCard />} /> */}
         {/* <Route path="/videos" element={<Video />} /> */}
         {/* <Route path="/stories" element={<Stories />} /> */}
@@ -56,7 +59,6 @@ function App() {
 
         {/* <Route path="/hotels" element={<Hotels />} /> */}
         {/* <Route path="/emailbox" element={<EmailBox />} /> */}
-        {/* <Route path="problems" element={<Problems />}/> */}
         {/* <Route path="problems/add" element={<AddProblem />}/> */}
         {/* <Route path="problems/:problemid" element={<SingleProblem />}/> */}
         <Route path="/profile" element={<UserPage />} />

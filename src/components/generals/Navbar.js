@@ -8,9 +8,10 @@ function Navbar() {
         <div className="nav-header bg-white shadow-xs border-0">
           <div className="nav-top">
             <Link to={"/home"}>
+            
               <i className="feather-zap text-success display1-size me-2 ms-0" />
-              <span className="d-inline-block fredoka-font ls-3 fw-600 text-current font-xxl logo-text mb-0">
-                Clarity{" "}
+              <span className="d-inline-block  ls-3 fw-600 text-current font-xxl logo-text mb-0">
+                Clarity
               </span>{" "}
             </Link>
             <Link
@@ -44,10 +45,10 @@ function Navbar() {
             <i className="feather-home font-lg alert-primary btn-round-lg theme-dark-bg text-current " />
           </Link>
           <Link
-            to={"/stories"}
+            to={"/jobs"}
             className="p-2 text-center ms-0 menu-icon center-menu-icon"
           >
-            <i className="feather-zap font-lg bg-greylight btn-round-lg theme-dark-bg text-grey-500 " />
+            <i className="feather-grid font-lg bg-greylight btn-round-lg theme-dark-bg text-grey-500 " />
           </Link>
           <Link
             to={"videos"}

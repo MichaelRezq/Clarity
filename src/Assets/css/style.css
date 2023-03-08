@@ -16,6 +16,9 @@
     /* background-image: url(../images/preloader.svg); */
     background-size: 80px;
 }
+body {
+	text-align: left;
+}
 .box {
     position: relative;
     width: 100%;
@@ -13338,17 +13341,17 @@ select.sort {
     display: flex!important;
     flex-basis: auto;
 }
-/* .main-wrapper {
-    display: -webkit-box;
+.main-wrapper {
+    /* display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 100vh; */
     overflow: hidden;
-} */
+}
 .middle-wrap {
     max-width: 800px;
     margin-left: auto;
