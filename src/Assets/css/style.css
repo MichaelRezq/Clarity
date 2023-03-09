@@ -16,6 +16,7 @@
     /* background-image: url(../images/preloader.svg); */
     background-size: 80px;
 }
+<<<<<<< HEAD
 body {
 	text-align: left;
 }
@@ -24,6 +25,8 @@ body {
         /* z-index: 1111111111111111111111111111111111111111111; */
     }
 } 
+=======
+>>>>>>> origin/youssef
 
 .box {
     position: relative;

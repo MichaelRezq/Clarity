@@ -11,7 +11,7 @@ const SingleJob = () => {
   <section className="section mt-4 ">
     <div className="container custom-container">
       <div className="row">
-        <div className='col-xl-1 d-xl-block d-none pe-0"'></div>
+        <div className='col-xl-1 d-xl-block d-none pe-0 z-n1 position-absolute"'></div>
         <div className="col-xl-8">
           <div className="card job-detail overflow-hidden border-0 shadow-sm rounded p-3 mb-5 bg-body-tertiary ">
             <div>

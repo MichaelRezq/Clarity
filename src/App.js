@@ -32,6 +32,8 @@ import LiveStreamCard from "./components/Defaults/LiveStreamCard.js";
 import DefaultAnalytics from "./components/Defaults/DefaultAnalytics.js";
 import LeftSideBar from "./components/generals/LeftSideBar.js";
 import Problems from "./Pages/Problems/Problems.js";
+import AddProblem from "./Pages/Problems/AddProblem.js";
+import ShowProblem from "./Pages/Problems/ShowProblem.js";
 import SingleJob from "./Pages/Jobs/SingleJob.js";
 
 function App() {
@@ -45,6 +47,8 @@ function App() {
         <Route path="/home"  element={<Home />} />
         <Route path="/jobs" element={<JobCard />} />
         <Route path="/problems" element={<Problems />}/>
+        <Route path="/problems/add" element={<AddProblem />}/>
+        <Route path="/problems/:problemid" element={<ShowProblem />}/>
 
         {/* <Route path="/chat" element={<ChatCard />} /> */}
         {/* <Route path="/videos" element={<Video />} /> */}
