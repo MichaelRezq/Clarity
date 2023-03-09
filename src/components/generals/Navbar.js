@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <div className="">
-      <nav className="navbar  border-bottom py-3  ">
+      <nav className="navbar  border-bottom py-3">
         {/*---------------------------- navigation top*/}
         <div className="nav-header bg-white shadow-xs border-0">
           <div className="nav-top">
