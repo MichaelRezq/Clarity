@@ -1,16 +1,19 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import "./css/app.min.css"
+import "./css/app.min.scoped.css"
+// import "./css/bootstrap-icons.scoped.css"
+// import "./css/bootstrap.min.scoped.css"
 const SingleJob = () => {
   return (
     <div className=''>
  <div>
   {/* START JOB-DEATILS */}
   <section className="section mt-4 ">
-    <div className="container">
+    <div className="container custom-container">
       <div className="row">
-        <div className="col-lg-8">
-          <div className="card job-detail overflow-hidden">
+        <div className='col-xl-1 d-xl-block d-none pe-0"'></div>
+        <div className="col-xl-8">
+          <div className="card job-detail overflow-hidden border-0 shadow-sm rounded p-3 mb-5 bg-body-tertiary ">
             <div>
               <img src={require("../../Assets/images/b-14.png")} alt className="img-fluid" />
               <div className="job-details-compnay-profile">
@@ -22,7 +25,7 @@ const SingleJob = () => {
                 <div className="row">
                   <div className="col-md-8">
                     <h5 className="mb-1">Product Designer / UI Designer</h5>
-                    <ul className="list-inline text-muted mb-0">
+                    <ul className="list-inline text-text-secondary mb-0">
                       <li className="list-inline-item">
                         <i className="mdi mdi-account" /> 8 Vacancy
                       </li>
@@ -59,7 +62,7 @@ const SingleJob = () => {
                 <div className="row g-2">
                   <div className="col-lg-3">
                     <div className=" shadow-small rounded-start p-3">
-                      <p className="text-muted mb-0 fs-13">Experience</p>
+                      <p className="text-secondary mb-0 fs-13">Experience</p>
                       <p className="fw-medium fs-15 mb-0">Minimum 1 Year</p>
                     </div>
                   </div>
@@ -164,7 +167,7 @@ const SingleJob = () => {
           </div>{/*end job-detail*/}
           <div className="mt-4">
             <h5>Related Jobs</h5>
-            <div className="job-box card mt-4">
+            <div className="job-box card mt-4 border-0 shadow-sm rounded p-3 mb-5 bg-body-tertiary">
               <div className="p-4">
                 <div className="row">
                   <div className="col-lg-1">
@@ -239,7 +242,7 @@ const SingleJob = () => {
               </div>
             </div>
             {/*end job-box*/}
-            <div className="job-box bookmark-post card mt-4">
+            <div className="job-box bookmark-post card mt-4 border-0 shadow-sm rounded p-3 mb-5 bg-body-tertiary">
               <div className="p-4">
                 <div className="row">
                   <div className="col-lg-1">
@@ -313,7 +316,7 @@ const SingleJob = () => {
               </div>
             </div>
             {/*end job-box*/}
-            <div className="job-box card mt-4">
+            <div className="job-box card mt-4 border-0 shadow-sm rounded p-3 mb-5 bg-body-tertiary">
               <div className="p-4">
                 <div className="row">
                   <div className="col-lg-1">
@@ -391,16 +394,14 @@ const SingleJob = () => {
           <div className="text-center mt-4">
             <Link
             to={"/home"}
-            href="job-list.html" cl
-            ass
-            Name="primary-link form-text">View More <i className="mdi mdi-arrow-right" /></Link>
+            href="job-list.html" className="primary-link form-text">View More <i className="mdi mdi-arrow-right" /></Link>
           </div>
         </div>{/*end col*/}
-        <div className="col-lg-4 mt-4 mt-lg-0">
+        <div className="col-xl-3 mt-4 mt-lg-0 ">
           {/*start side-bar*/}
           <div className="side-bar ms-lg-4">
-            <div className="card job-overview">
-              <div className="card-body p-4">
+            <div className="card job-overview border-0 shadow-sm rounded p-3 mb-5 bg-body-tertiary">
+              <div className="card-body p-4  " >
                 <h6 className="fs-17">Job Overview</h6>
                 <ul className="list-unstyled mt-4 mb-0">
                   <li>
@@ -481,8 +482,8 @@ const SingleJob = () => {
                 </div>
               </div>{/*end card-body*/}
             </div>{/*end job-overview*/}
-            <div className="card company-profile mt-4">
-              <div className="card-body p-4">
+            <div className="card company-profile mt-4 border-0 shadow-sm rounded p-3 mb-5 bg-body-tertiary ">
+              <div className="card-body p-4 ">
                 <div className="text-center">
                   <img src={require("../../Assets/images/b-14.png")} alt className="img-fluid rounded-3" />
                   <div className="mt-4">
@@ -548,38 +549,7 @@ const SingleJob = () => {
     </div>{/*end container*/}
   </section>
   {/* START JOB-DEATILS */}
-  {/* START APPLY MODAL */}
-  <div className="modal fade" id="applyNow" tabIndex={-1} aria-labelledby="applyNow" aria-hidden="true">
-    <div className="modal-dialog modal-dialog-centered">
-      <div className="modal-content">
-        <div className="modal-body p-5">
-          <div className="text-center mb-4">
-            <h5 className="modal-title" id="staticBackdropLabel">Apply For This Job</h5>
-          </div>
-          <div className="position-absolute end-0 top-0 p-3">
-            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close" />
-          </div>
-          <div className="mb-3">
-            <label htmlFor="nameControlInput" className="form-label">Name</label>
-            <input type="text" className="form-control" id="nameControlInput" placeholder="Enter your name" />
-          </div>
-          <div className="mb-3">
-            <label htmlFor="emailControlInput2" className="form-label">Email Address</label>
-            <input type="email" className="form-control" id="emailControlInput2" placeholder="Enter your email" />
-          </div>
-          <div className="mb-3">
-            <label htmlFor="messageControlTextarea" className="form-label">Message</label>
-            <textarea className="form-control" id="messageControlTextarea" rows={4} placeholder="Enter your message" defaultValue={""} />
-          </div>
-          <div className="mb-4">
-            <label className="form-label" htmlFor="inputGroupFile01">Resume Upload</label>
-            <input type="file" className="form-control" id="inputGroupFile01" />
-          </div>
-          <button type="submit" className="btn btn-primary w-100">Send Application</button>
-        </div>
-      </div>
-    </div>
-  </div>{/* END APPLY MODAL */}
+ 
   {/* End Page-content */}
 </div>
 

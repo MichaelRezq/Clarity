@@ -19,6 +19,12 @@
 body {
 	text-align: left;
 }
+@media (min-width:1650px){
+    nav{
+        /* z-index: 1111111111111111111111111111111111111111111; */
+    }
+} 
+
 .box {
     position: relative;
     width: 100%;
@@ -10144,7 +10150,7 @@ a.active, a:focus, a:hover {
     top: 0;
     left: -320px;
     background-color: #fff!important;
-    z-index: 1000;
+    z-index: 10000000000000;
     height: 100vh;
     padding-top: 0;
     transition: all .4s ease;

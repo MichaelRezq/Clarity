@@ -373,7 +373,7 @@ function Navbar() {
               </div>
             </div>
           </div>
-          <Link to={"settings"} className="p-0 ms-3 menu-icon">
+          <Link to={"profile"} className="p-0 ms-3 menu-icon">
             <img
               src={require("../../Assets/images/profile-4.png")}
               alt="user"
