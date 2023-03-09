@@ -3,7 +3,7 @@ import "./Assets/css/bootstrap-datetimepicker.css";
 // import "./Assets/css/emoji.css"
 import "./Assets/css/feather.css";
 import "./Assets/css/lightbox.css";
-import "./Assets/css/style-rtl.css";
+// import "./Assets/css/style-rtl.css";
 import "./Assets/css/style.css";
 import "./Assets/css/themify-icons.css";
 import "./Assets/css/video-player.css";
@@ -33,6 +33,7 @@ import DefaultAnalytics from "./components/Defaults/DefaultAnalytics.js";
 import LeftSideBar from "./components/generals/LeftSideBar.js";
 import Problems from "./Pages/Problems/Problems.js";
 import AddProblem from "./Pages/Problems/AddProblem.js";
+import ShowProblem from "./Pages/Problems/ShowProblem.js";
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
         <Route path="/jobs" element={<JobCard />} />
         <Route path="/problems" element={<Problems />}/>
         <Route path="/problems/add" element={<AddProblem />}/>
+        <Route path="/problems/:problemid" element={<ShowProblem />}/>
 
         {/* <Route path="/chat" element={<ChatCard />} /> */}
         {/* <Route path="/videos" element={<Video />} /> */}

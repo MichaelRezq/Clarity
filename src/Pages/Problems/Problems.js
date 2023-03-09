@@ -6,7 +6,7 @@ function Problems() {
     <>
     
     {/* <!--================All Question Area =================--> */}
-<section className="all-question-area bg-disable pt-100 pb-lg-120 pb-100 d-flex justify-content-center">
+<section className="all-question-area bg-disable pt-100 pb-lg-120 pb-100 d-flex justify-content-center mt-3">
   <div className="container custom-container ">
     <div className="row">
       <div className="col-xl-3 d-xl-block d-none pe-0">

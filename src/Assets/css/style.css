@@ -16,9 +16,7 @@
     /* background-image: url(../images/preloader.svg); */
     background-size: 80px;
 }
-body {
-	text-align: left;
-}
+
 .box {
     position: relative;
     width: 100%;

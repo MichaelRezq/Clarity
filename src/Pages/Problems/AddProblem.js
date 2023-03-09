@@ -4,7 +4,7 @@ function AddProblem() {
   return (
     <>
 {/*================Add Question Area =================*/}
-<section className="all-question-area bg-disable pt-100 pb-120 d-flex justify-content-center">
+<section className="all-question-area bg-disable pt-100 pb-120 d-flex justify-content-center mt-3">
   <div className="container custom-container">
     <div className="row">
       <div className="col-xl-3 d-xl-block d-none pe-0">
@@ -82,20 +82,7 @@ function AddProblem() {
                 it can be answered easily.
               </div>
             </div>
-            <div className="mt-25">
-              <label className="label" htmlFor="inp_category">Category <span>*</span></label>
-              <div className="icon-input-group">
-                <select id="inp_category" className="custom-select form-control">
-                  <option value={1}>1</option>
-                  <option value={2}>2</option>
-                </select>
-                <i className="icon_folder-open" />
-              </div>
-              <div className="instruction">
-                Please choose an appropriate title for the equation so
-                it can be answered easily.
-              </div>
-            </div>
+            
             <div className="mt-25">
               <label className="label" htmlFor="inp_tag">Tags <span>*</span></label>
               <div className="icon-input-group">
