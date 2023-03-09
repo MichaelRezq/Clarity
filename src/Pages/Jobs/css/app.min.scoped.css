@@ -1,12 +1,4 @@
 @import url(https://fonts.googleapis.com/css2?family=Dancing+Script&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap);
-.top-bar {
-    background-color: #f8f9fc;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: 1040
-}
 
 .topbar-social-menu .social-link {
     display: inline-block;
