@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import "./css/app.min.css"
 // import "./css/icons.min.css"
 import "./css/bootstrap.min.css"
@@ -36,12 +37,20 @@ const SingleJob = () => {
                     <ul className="list-inline mb-0 text-lg-end mt-3 mt-lg-0">
                       <li className="list-inline-item">
                         <div className="favorite-icon">
-                          <a href="javascript:void(0)"><i className="uil uil-heart-alt" /></a>
+                          <Link
+                          to={"/home"}
+                          href="javascript:void(0)"
+                          >
+                            <i className="uil uil-heart-alt" /></Link>
                         </div>
                       </li>
                       <li className="list-inline-item">
                         <div className="favorite-icon">
-                          <a href="javascript:void(0)"><i className="uil uil-setting" /></a>
+                          <Link
+                          to={"/home"}
+                          href="javascript:void(0)"
+                          >
+                            <i className="uil uil-setting" /></Link>
                         </div>
                       </li>
                     </ul>
@@ -131,13 +140,25 @@ const SingleJob = () => {
                     Share this job:
                   </li>
                   <li className="list-inline-item mt-1">
-                    <a href="javascript:void(0)" className="btn btn-primary btn-hover"><i className="uil uil-facebook-f" /> Facebook</a>
+                    <Link
+                    to={"/home"}
+                    href="javascript:void(0
+                        )" 
+                    className="btn btn-primary btn-hover"><i className="uil uil-facebook-f" /> Facebook</Link>
                   </li>
                   <li className="list-inline-item mt-1">
-                    <a href="javascript:void(0)" className="btn btn-danger btn-hover"><i className="uil uil-google" /> Google+</a>
+                    <Link
+                    to={"/home"}
+                    href="javascript:void(0
+                        )" 
+                    className="btn btn-danger btn-hover"><i className="uil uil-google" /> Google+</Link>
                   </li>
                   <li className="list-inline-item mt-1">
-                    <a href="javascript:void(0)" className="btn btn-success btn-hover"><i className="uil uil-linkedin-alt" /> linkedin</a>
+                    <Link
+                    to={"/home"}
+                    href="javascript:void(0
+                        )" 
+                    className="btn btn-success btn-hover"><i className="uil uil-linkedin-alt" /> linkedin</Link>
                   </li>
                 </ul>
               </div>
@@ -153,7 +174,11 @@ const SingleJob = () => {
                   </div>{/*end col*/}
                   <div className="col-lg-10">
                     <div className="mt-3 mt-lg-0">
-                      <h5 className="fs-17 mb-1"><a href="job-details.html" className="text-dark">HTML Developer</a> <small className="text-muted fw-normal">(0-2 Yrs Exp.)</small></h5>
+                      <h5 className="fs-17 mb-1"><Link
+                      to={"/home"}
+                      href="job-details.html"
+                       cl
+                      assName="text-dark">HTML Developer</Link> <small className="text-muted fw-normal">(0-2 Yrs Exp.)</small></h5>
                       <ul className="list-inline mb-0">
                         <li className="list-inline-item">
                           <p className="text-muted fs-14 mb-0">Jobcy Technology Pvt.Ltd</p>
@@ -174,7 +199,11 @@ const SingleJob = () => {
                   </div>{/*end col*/}
                 </div>{/*end row*/}
                 <div className="favorite-icon">
-                  <a href="javascript:void(0)"><i className="uil uil-heart-alt fs-18" /></a>
+                  <Link
+                  to={"/home"}
+                  href="javascript:void(0)"
+                  >
+                    <i className="uil uil-heart-alt fs-18" /></Link>
                 </div>
               </div>
               <div className="p-3 bg-light">
@@ -183,15 +212,27 @@ const SingleJob = () => {
                     <div>
                       <ul className="list-inline mb-0">
                         <li className="list-inline-item"><i className="uil uil-tag" /> Keywords :</li>
-                        <li className="list-inline-item"><a href="javascript:void(0)" className="primary-link text-muted">Ui designer</a>,</li>
-                        <li className="list-inline-item"><a href="javascript:void(0)" className="primary-link text-muted">developer</a></li>
+                        <li className="list-inline-item"><Link
+                        to={"/home"}
+                        href="javascript:void(0
+                            )" 
+                        className="primary-link text-muted">Ui designer</Link>,</li>
+                        <li className="list-inline-item"><Link
+                        to={"/home"}
+                        href="javascript:void(0
+                            )" 
+                        className="primary-link text-muted">developer</Link></li>
                       </ul>
                     </div>
                   </div>
                   {/*end col*/}
                   <div className="col-md-3">
                     <div className="text-md-end">
-                      <a href="javascript:void(0)" className="primary-link">Apply Now <i className="mdi mdi-chevron-double-right" /></a>
+                      <Link
+                      to={"/home"}
+                      href="javascript:void(0
+                        )" 
+                      className="primary-link">Apply Now <i className="mdi mdi-chevron-double-right" /></Link>
                     </div>
                   </div>
                   {/*end col*/}
@@ -208,7 +249,11 @@ const SingleJob = () => {
                   </div>{/*end col*/}
                   <div className="col-lg-10">
                     <div className="mt-3 mt-lg-0">
-                      <h5 className="fs-17 mb-1"><a href="job-details.html" className="text-dark">Marketing Director</a> <small className="text-muted fw-normal">(2-4 Yrs Exp.)</small></h5>
+                      <h5 className="fs-17 mb-1"><Link
+                      to={"/home"}
+                      href="job-details.html"
+                       cl
+                      assName="text-dark">Marketing Director</Link> <small className="text-muted fw-normal">(2-4 Yrs Exp.)</small></h5>
                       <ul className="list-inline mb-0">
                         <li className="list-inline-item">
                           <p className="text-muted fs-14 mb-0">Creative Agency</p>
@@ -228,7 +273,11 @@ const SingleJob = () => {
                   </div>{/*end col*/}
                 </div>{/*end row*/}
                 <div className="favorite-icon">
-                  <a href="javascript:void(0)"><i className="uil uil-heart-alt fs-18" /></a>
+                  <Link
+                  to={"/home"}
+                  href="javascript:void(0)"
+                  >
+                    <i className="uil uil-heart-alt fs-18" /></Link>
                 </div>
               </div>
               <div className="p-3 bg-light">
@@ -237,15 +286,27 @@ const SingleJob = () => {
                     <div>
                       <ul className="list-inline mb-0">
                         <li className="list-inline-item"><i className="uil uil-tag" /> Keywords :</li>
-                        <li className="list-inline-item"><a href="javascript:void(0)" className="primary-link text-muted">Marketing</a>,</li>
-                        <li className="list-inline-item"><a href="javascript:void(0)" className="primary-link text-muted">business</a></li>
+                        <li className="list-inline-item"><Link
+                        to={"/home"}
+                        href="javascript:void(0
+                            )" 
+                        className="primary-link text-muted">Marketing</Link>,</li>
+                        <li className="list-inline-item"><Link
+                        to={"/home"}
+                        href="javascript:void(0
+                            )" 
+                        className="primary-link text-muted">business</Link></li>
                       </ul>
                     </div>
                   </div>
                   {/*end col*/}
                   <div className="col-md-3">
                     <div className="text-md-end">
-                      <a href="javascript:void(0)" className="primary-link">Apply Now <i className="mdi mdi-chevron-double-right" /></a>
+                      <Link
+                      to={"/home"}
+                      href="javascript:void(0
+                        )" 
+                      className="primary-link">Apply Now <i className="mdi mdi-chevron-double-right" /></Link>
                     </div>
                   </div>
                   {/*end col*/}
@@ -262,7 +323,11 @@ const SingleJob = () => {
                   </div>{/*end col*/}
                   <div className="col-lg-10">
                     <div className="mt-3 mt-lg-0">
-                      <h5 className="fs-17 mb-1"><a href="job-details.html" className="text-dark">HTML Developer</a> <small className="text-muted fw-normal">(2-4 Yrs Exp.)</small></h5>
+                      <h5 className="fs-17 mb-1"><Link
+                      to={"/home"}
+                      href="job-details.html"
+                       cl
+                      assName="text-dark">HTML Developer</Link> <small className="text-muted fw-normal">(2-4 Yrs Exp.)</small></h5>
                       <ul className="list-inline mb-0">
                         <li className="list-inline-item">
                           <p className="text-muted fs-14 mb-0">Jobcy Technology Pvt.Ltd</p>
@@ -282,7 +347,11 @@ const SingleJob = () => {
                   </div>{/*end col*/}
                 </div>{/*end row*/}
                 <div className="favorite-icon">
-                  <a href="javascript:void(0)"><i className="uil uil-heart-alt fs-18" /></a>
+                  <Link
+                  to={"/home"}
+                  href="javascript:void(0)"
+                  >
+                    <i className="uil uil-heart-alt fs-18" /></Link>
                 </div>
               </div>
               <div className="p-3 bg-light">
@@ -291,15 +360,27 @@ const SingleJob = () => {
                     <div>
                       <ul className="list-inline mb-0">
                         <li className="list-inline-item"><i className="uil uil-tag" /> Keywords :</li>
-                        <li className="list-inline-item"><a href="javascript:void(0)" className="primary-link text-muted">Ui designer</a>,</li>
-                        <li className="list-inline-item"><a href="javascript:void(0)" className="primary-link text-muted">developer</a></li>
+                        <li className="list-inline-item"><Link
+                        to={"/home"}
+                        href="javascript:void(0
+                            )" 
+                        className="primary-link text-muted">Ui designer</Link>,</li>
+                        <li className="list-inline-item"><Link
+                        to={"/home"}
+                        href="javascript:void(0
+                            )" 
+                        className="primary-link text-muted">developer</Link></li>
                       </ul>
                     </div>
                   </div>
                   {/*end col*/}
                   <div className="col-md-3">
                     <div className="text-md-end">
-                      <a href="javascript:void(0)" className="primary-link">Apply Now <i className="mdi mdi-chevron-double-right" /></a>
+                      <Link
+                      to={"/home"}
+                      href="javascript:void(0
+                        )" 
+                      className="primary-link">Apply Now <i className="mdi mdi-chevron-double-right" /></Link>
                     </div>
                   </div>
                   {/*end col*/}
@@ -310,7 +391,11 @@ const SingleJob = () => {
             {/*end job-box*/}
           </div>
           <div className="text-center mt-4">
-            <a href="job-list.html" className="primary-link form-text">View More <i className="mdi mdi-arrow-right" /></a>
+            <Link
+            to={"/home"}
+            href="job-list.html" cl
+            ass
+            Name="primary-link form-text">View More <i className="mdi mdi-arrow-right" /></Link>
           </div>
         </div>{/*end col*/}
         <div className="col-lg-4 mt-4 mt-lg-0">
@@ -385,8 +470,16 @@ const SingleJob = () => {
                   </li>
                 </ul>
                 <div className="mt-3">
-                  <a href="#applyNow" data-bs-toggle="modal" className="btn btn-primary btn-hover w-100 mt-2">Apply Now <i className="uil uil-arrow-right" /></a>
-                  <a href="bookmark-jobs.html" className="btn btn-soft-warning btn-hover w-100 mt-2"><i className="uil uil-bookmark" /> Add Bookmark</a>
+                  <Link
+                  to={"/home"}
+                  href="#applyNow" data-b
+                  s-t
+                  oggle="modal" className="btn btn-primary btn-hover w-100 mt-2">Apply Now <i className="uil uil-arrow-right" /></Link>
+                  <Link
+                  to={"/home"}
+                  href="bookmark-jobs.htm
+                  l" 
+                  className="btn btn-soft-warning btn-hover w-100 mt-2"><i className="uil uil-bookmark" /> Add Bookmark</Link>
                 </div>
               </div>{/*end card-body*/}
             </div>{/*end job-overview*/}
@@ -438,7 +531,11 @@ const SingleJob = () => {
                   </li>
                 </ul>
                 <div className="mt-4">
-                  <a href="company-details.html" className="btn btn-primary btn-hover w-100 rounded"><i className="mdi mdi-eye" /> View Profile</a>
+                  <Link
+                  to={"/home"}
+                  href="company-details.h
+                  tml
+                  " className="btn btn-primary btn-hover w-100 rounded"><i className="mdi mdi-eye" /> View Profile</Link>
                 </div>
               </div>
             </div>
