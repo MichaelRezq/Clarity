@@ -31,6 +31,7 @@ import Events from "./Pages/Events/Events.js";
 import LiveStreamCard from "./components/Defaults/LiveStreamCard.js";
 import DefaultAnalytics from "./components/Defaults/DefaultAnalytics.js";
 import LeftSideBar from "./components/generals/LeftSideBar.js";
+import SingleJob from "./Pages/Jobs/SingleJob.js";
 
 function App() {
   return (
@@ -48,7 +49,7 @@ function App() {
         {/* <Route path="/shop" element={<Shop />} /> */}
         {/* <Route path="/settings" element={<Settings />} /> */}
         {/* <Route path="/badges" element={<DefaultBadge />} /> */}
-        {/* <Route path="/jobs/:jobid" element={<JobCard />} /> */}
+        <Route path="/jobs/:jobid" element={<SingleJob />} />
         {/* <Route path="/comunity" element={<Group />} /> */}
         {/* <Route path="/events" element={<Events />} /> */}
         {/* <Route path="/liveStream" element={<LiveStreamCard />} /> */}
@@ -59,6 +60,7 @@ function App() {
         {/* <Route path="problems" element={<Problems />}/> */}
         {/* <Route path="problems/add" element={<AddProblem />}/> */}
         {/* <Route path="problems/:problemid" element={<SingleProblem />}/> */}
+
         <Route path="/profile" element={<UserPage />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

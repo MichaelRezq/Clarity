@@ -435,7 +435,6 @@ const JobCard = () => {
           </div>
         </div>
       </div>
-      {/* Mirrored from uitheme.net/sociala/default-job.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 03 Mar 2023 23:30:37 GMT */}
     </div>
   );
 };
