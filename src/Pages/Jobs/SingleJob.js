@@ -1,14 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import "./css/app.min.css"
-// import "./css/icons.min.css"
-import "./css/bootstrap.min.css"
 const SingleJob = () => {
   return (
     <div className=''>
  <div>
   {/* START JOB-DEATILS */}
-  <section className="section">
+  <section className="section mt-4 ">
     <div className="container">
       <div className="row">
         <div className="col-lg-8">
@@ -60,25 +58,25 @@ const SingleJob = () => {
               <div className="mt-4">
                 <div className="row g-2">
                   <div className="col-lg-3">
-                    <div className="border rounded-start p-3">
+                    <div className=" shadow-small rounded-start p-3">
                       <p className="text-muted mb-0 fs-13">Experience</p>
                       <p className="fw-medium fs-15 mb-0">Minimum 1 Year</p>
                     </div>
                   </div>
                   <div className="col-lg-3">
-                    <div className="border p-3">
+                    <div className=" shadow-small p-3">
                       <p className="text-muted fs-13 mb-0">Employee type</p>
                       <p className="fw-medium mb-0">Full Time</p>
                     </div>
                   </div>
                   <div className="col-lg-3">
-                    <div className="border p-3">
+                    <div className=" shadow-small p-3">
                       <p className="text-muted fs-13 mb-0">Position</p>
                       <p className="fw-medium mb-0">Senior</p>
                     </div>
                   </div>
                   <div className="col-lg-3">
-                    <div className="border rounded-end p-3">
+                    <div className=" shadow-small rounded-end p-3">
                       <p className="text-muted fs-13 mb-0">Offer Salary</p>
                       <p className="fw-medium mb-0">$2150/ Month</p>
                     </div>
