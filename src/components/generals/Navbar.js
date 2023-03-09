@@ -12,7 +12,7 @@ function Navbar() {
               <i className="feather-zap text-success display1-size me-2 ms-0" />
               <span className="d-inline-block  ls-3 fw-600 text-current font-xxl logo-text mb-0">
                 Clarity
-              </span>{" "}
+              </span>
             </Link>
             <Link
               to={"/chat"}
@@ -42,31 +42,31 @@ function Navbar() {
             to={"/home"}
             className="p-2 text-center ms-3 menu-icon center-menu-icon"
           >
-            <i className="feather-home font-lg alert-primary btn-round-lg theme-dark-bg text-current " />
+            <i className="feather-home font-lg bg-greylight btn-round-lg theme-dark-bg text-current " />
           </Link>
           <Link
             to={"/jobs"}
             className="p-2 text-center ms-0 menu-icon center-menu-icon"
           >
-            <i className="feather-grid font-lg bg-greylight btn-round-lg theme-dark-bg text-grey-500 " />
+            <i className="feather-grid font-lg bg-greylight btn-round-lg theme-dark-bg text-current " />
           </Link>
           <Link
-            to={"videos"}
+            to={"/problems"}
             className="p-2 text-center ms-0 menu-icon center-menu-icon"
           >
-            <i className="feather-video font-lg bg-greylight btn-round-lg theme-dark-bg text-grey-500 " />
+            <i className="feather-layers font-lg bg-greylight btn-round-lg theme-dark-bg text-current " />
           </Link>
           <Link
-            to={"comunity"}
+            to={""}
             className="p-2 text-center ms-0 menu-icon center-menu-icon"
           >
             <i className="feather-user font-lg bg-greylight btn-round-lg theme-dark-bg text-grey-500 " />
           </Link>
           <Link
-            to={"shop"}
+            to={""}
             className="p-2 text-center ms-0 menu-icon center-menu-icon"
           >
-            <i className="feather-shopping-bag font-lg bg-greylight btn-round-lg theme-dark-bg text-grey-500 " />
+            <i className="feather-shopping-bag font-lg bg-greylight btn-round-lg theme-dark-bg text-current " />
           </Link>
           <div
             className="p-2 text-center ms-auto menu-icon"
@@ -76,10 +76,10 @@ function Navbar() {
             aria-expanded="false"
             data-bs-toggle="dropdown"
           >
-            <span className="dot-count bg-warning" />
-            <i className="feather-bell font-xl text-current" />
+            {/* <span className="dot-count bg-warning" />
+            <i className="feather-bell font-xl text-current" /> */}
           </div>
-          <div
+          {/* <div
             className="dropdown-menu dropdown-menu-end p-4 rounded-3 border-0 shadow-lg"
             aria-labelledby="dropdownMenu3"
           >
@@ -152,7 +152,7 @@ function Navbar() {
                 Mobile Apps UI Designer is require..
               </h6>
             </div>
-          </div>
+          </div> */}
           <Link
             to={"chat"}
             className="p-2 text-center ms-3 menu-icon chat-active-btn"

@@ -3,7 +3,7 @@ import React from "react";
 const GuestPage = () => {
   return (
     <div>
-      <div className="preloader" />
+      {/* <div className="preloader" /> */}
       <div className="main-wrap">
         <div className="nav-header bg-transparent shadow-none border-0">
           <div className="nav-top w-100">
