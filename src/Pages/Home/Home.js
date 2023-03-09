@@ -38,7 +38,7 @@ const Home = () => {
                   </div>
                 </div>
                 {/* loader wrapper */}
-                <div className="row feed-body">
+                <div className="row c">
                   <div className="col-xl-8 col-xxl-9 col-lg-8">
                     <div className="card w-100 shadow-none bg-transparent bg-transparent-card border-0 p-0 mb-0">
                       

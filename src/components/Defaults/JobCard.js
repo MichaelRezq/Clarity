@@ -8,7 +8,7 @@ const JobCard = () => {
       {/* Favicon icon */}
 
       {/* Custom Stylesheet */}
-      <div className="preloader" />
+      {/* <div className="preloader" /> */}
       <div className="main-wrapper">
         {/* navigation top*/}
 
