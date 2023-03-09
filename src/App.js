@@ -31,6 +31,8 @@ import Events from "./Pages/Events/Events.js";
 import LiveStreamCard from "./components/Defaults/LiveStreamCard.js";
 import DefaultAnalytics from "./components/Defaults/DefaultAnalytics.js";
 import LeftSideBar from "./components/generals/LeftSideBar.js";
+import Problems from "./Pages/Problems/Problems.js";
+import SingleJob from "./Pages/Jobs/SingleJob.js";
 
 function App() {
   return (
